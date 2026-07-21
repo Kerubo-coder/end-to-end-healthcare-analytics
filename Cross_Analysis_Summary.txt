@@ -1,0 +1,53 @@
+CROSS ANALYSIS REPORT
+================================================================================
+
+CROSS ANALYSIS SUMMARY INSIGHTS
+================================================================================
+Most common treatment status overall: Discharged
+Department with highest patient volume: OPD
+Doctor with highest treatment count: Dr. Njeri
+Department with the strongest gender skew: Maternity
+Department with most visits by visit type: OPD
+
+
+1. Treatment status by department
+Treatment_Status  Deceased  Discharged  Ongoing  Referred  All
+Department                                                    
+Emergency               26          63       22        33  144
+Maternity               11          47       10        18   86
+OPD                     30          84       62        51  227
+Pediatrics              13          44       12        22   91
+All                     80         238      106       124  548
+
+2. Treatment status by doctor
+Treatment_Status  Deceased  Discharged  Ongoing  Referred  All
+Doctor                                                        
+Dr. Achieng              3          33       12        16   64
+Dr. Derry                5          19        8        11   43
+Dr. Fabian               2          15        4         7   28
+Dr. Irene               11          16        7        10   44
+Dr. Kimani               7          26       14        14   61
+Dr. Margaret             8          25        6         9   48
+Dr. Mwakio               7          15        9         6   37
+Dr. Mwangi              11          23       15        10   59
+Dr. Njeri               18          34       16        21   89
+Dr. Otieno               8          32       15        20   75
+All                     80         238      106       124  548
+
+3. Department by gender
+Gender      Female  Male  All
+Department                   
+Emergency        1   143  144
+Maternity       86     0   86
+OPD            138    89  227
+Pediatrics      43    48   91
+All            268   280  548
+
+4. Department by visit type
+Visit_Type  Inpatient  Outpatient  All
+Department                            
+Emergency          74          70  144
+Maternity          36          50   86
+OPD               119         108  227
+Pediatrics         47          44   91
+All               276         272  548

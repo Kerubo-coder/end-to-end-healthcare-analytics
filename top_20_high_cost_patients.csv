@@ -1,0 +1,21 @@
+Patient_ID,Department,Diagnosis,Total_Cost
+P1303,OPD,Tuberculosis,19868
+P1204,Emergency,COVID-19,19674
+P1503,OPD,Asthma,19475
+P1247,OPD,Tuberculosis,19465
+P1351,OPD,COVID-19,19429
+P1238,Emergency,Tuberculosis,19333
+P1373,OPD,Asthma,19274
+P1431,Emergency,Diabetes,19268
+P1372,Emergency,Asthma,19186
+P1424,Emergency,Malaria,19132
+P1483,OPD,Tuberculosis,18958
+P1526,Maternity,Diarrhea,18839
+P1355,Pediatrics,Skin Infection,18731
+P1230,OPD,Skin Infection,18688
+P1516,Emergency,Tuberculosis,18512
+P1502,OPD,Diarrhea,18480
+P1450,OPD,Flu,18453
+P1529,OPD,Tuberculosis,18333
+P1411,Pediatrics,Asthma,18130
+P1488,OPD,Tuberculosis,18107

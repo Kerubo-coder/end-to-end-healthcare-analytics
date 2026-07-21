@@ -1,0 +1,549 @@
+Patient_ID,Age,Gender,Date_of_Visit,Visit_Type,Department,Blood_Glucose,Cholesterol,Hemoglobin,WBC_Count,Platelet_Count,Diagnosis,Medication,Dosage_mg,Admission_Date,Discharge_Date,Treatment_Status, Total_Cost ,Doctor
+P1000,52,Male,4/23/2024,Inpatient,Emergency,132,132,11.6,4927,282311,Hypertension,Drug B,471,4/23/2024,4/27/2024,Discharged," $5,300.00 ",Dr. Mwakio
+P1001,15,Female,4/24/2024,Outpatient,Maternity,115,226,10.5,5356,384746,Diabetes,Drug A,370,,,Referred," $10,000.00 ",Dr. Derry
+P1002,72,Male,1/14/2024,Inpatient,Emergency,157,164,16.9,7790,395546,Malaria,Drug C,166,1/14/2024,1/18/2024,Referred," $5,300.00 ",Dr. Irene
+P1003,61,Female,1/9/2024,Outpatient,OPD,80,208,11.7,3306,346733,Asthma,Drug C,384,,,Ongoing," $5,900.00 ",Dr. Mwakio
+P1004,21,Female,2/9/2024,Inpatient,Maternity,131,289,16,10979,276945,Hypertension,Drug D,485,2/9/2024,2/13/2024,Discharged," $10,000.00 ",Dr. Irene
+P1005,83,Female,1/25/2024,Inpatient,OPD,146,219,10.1,6665,195272,Hypertension,Drug A,91,1/25/2024,1/29/2024,Ongoing," $5,900.00 ",Dr. Derry
+P1006,87,Male,4/12/2024,Inpatient,Emergency,222,274,9.9,10057,296470,Hypertension,Drug B,59,4/12/2024,4/16/2024,Deceased," $5,300.00 ",Dr. Fabian
+P1007,75,Male,1/22/2024,Outpatient,Emergency,121,285,8.3,3661,270030,Hypertension,Drug C,480,,,Discharged," $5,300.00 ",Dr. Derry
+P1008,75,Male,1/4/2024,Outpatient,Emergency,73,126,13.9,7644,156570,Hypertension,Drug B,292,,,Ongoing," $5,300.00 ",Dr. Irene
+P1009,88,Male,6/2/2024,Inpatient,Emergency,128,252,11.3,11503,159110,Diabetes,Drug B,182,6/2/2024,6/6/2024,Referred," $5,300.00 ",Dr. Margaret
+P1010,24,Female,1/29/2024,Inpatient,Maternity,141,164,15.8,5920,229141,Asthma,Drug C,395,1/29/2024,2/2/2024,Discharged," $10,000.00 ",Dr. Margaret
+P1011,3,Male,4/18/2024,Inpatient,Pediatrics,217,177,12.3,11946,162115,Malaria,Drug B,353,4/18/2024,4/22/2024,Discharged," $1,500.00 ",Dr. Margaret
+P1012,22,Male,4/7/2024,Inpatient,OPD,162,150,16.7,9236,189062,Malaria,Drug C,12,4/7/2024,4/11/2024,Referred," $3,200.00 ",Dr. Irene
+P1013,53,Male,2/6/2024,Outpatient,Emergency,132,142,9.7,9078,435055,Malaria,Drug B,325,,,Referred," $5,300.00 ",Dr. Derry
+P1014,2,Male,3/15/2024,Inpatient,Pediatrics,123,289,15.8,3352,254061,Malaria,Drug C,317,3/15/2024,3/19/2024,Deceased," $1,500.00 ",Dr. Margaret
+P1015,88,Male,3/10/2024,Outpatient,Emergency,186,257,15,10005,444700,Diabetes,Drug A,251,,,Deceased," $5,300.00 ",Dr. Derry
+P1016,30,Female,5/25/2024,Inpatient,Maternity,179,279,14.9,3158,151969,Pneumonia,Drug D,327,5/25/2024,5/29/2024,Referred," $10,000.00 ",Dr. Fabian
+P1017,38,Male,5/7/2024,Outpatient,OPD,143,226,15.6,3956,271863,Asthma,Drug C,476,,,Ongoing," $3,200.00 ",Dr. Derry
+P1018,2,Female,3/25/2024,Outpatient,Pediatrics,176,277,14.8,5071,422369,Hypertension,Drug C,475,,,Deceased," $1,500.00 ",Dr. Mwakio
+P1019,64,Male,2/11/2024,Outpatient,Emergency,126,158,13.6,11595,273008,Pneumonia,Drug D,447,,,Discharged," $5,300.00 ",Dr. Margaret
+P1020,60,Female,4/9/2024,Inpatient,OPD,238,278,9.2,6453,304268,Malaria,Drug C,259,4/9/2024,4/13/2024,Referred," $5,900.00 ",Dr. Fabian
+P1021,21,Male,2/10/2024,Outpatient,OPD,72,201,8.3,9675,255823,Pneumonia,Drug C,332,,,Referred," $3,200.00 ",Dr. Mwakio
+P1022,33,Male,6/14/2024,Inpatient,OPD,189,219,16.3,3955,425813,Asthma,Drug B,58,6/14/2024,6/18/2024,Ongoing," $3,200.00 ",Dr. Mwakio
+P1023,76,Female,2/3/2024,Outpatient,OPD,75,121,13.5,9295,260677,Hypertension,Drug D,253,,,Ongoing," $5,900.00 ",Dr. Derry
+P1024,58,Female,1/17/2024,Outpatient,OPD,74,196,15.2,4712,396958,Hypertension,Drug A,243,,,Ongoing," $5,900.00 ",Dr. Irene
+P1025,22,Female,6/13/2024,Outpatient,Maternity,74,131,12.3,7703,198320,Asthma,Drug C,233,,,Discharged," $10,000.00 ",Dr. Mwakio
+P1026,89,Male,6/1/2024,Outpatient,Emergency,123,158,9.1,9563,296649,Asthma,Drug D,71,,,Deceased," $5,300.00 ",Dr. Derry
+P1027,49,Female,5/1/2024,Outpatient,OPD,116,132,9.1,8631,275354,Malaria,Drug B,55,,,Deceased," $5,900.00 ",Dr. Margaret
+P1028,59,Male,3/16/2024,Outpatient,Emergency,246,165,14.2,4394,238009,Hypertension,Drug A,101,,,Deceased," $5,300.00 ",Dr. Irene
+P1029,42,Male,3/27/2024,Inpatient,Emergency,78,274,11.9,7732,407437,Pneumonia,Drug D,96,3/27/2024,3/31/2024,Deceased," $5,300.00 ",Dr. Fabian
+P1030,60,Female,4/26/2024,Inpatient,OPD,168,232,9.8,6714,178625,Diabetes,Drug A,499,4/26/2024,4/30/2024,Ongoing," $5,900.00 ",Dr. Margaret
+P1031,80,Female,4/15/2024,Inpatient,OPD,89,136,12.4,3529,362112,Diabetes,Drug A,268,4/15/2024,4/19/2024,Ongoing," $5,900.00 ",Dr. Mwakio
+P1032,15,Male,3/26/2024,Outpatient,OPD,191,223,8.6,5958,436233,Asthma,Drug A,422,,,Ongoing," $3,200.00 ",Dr. Margaret
+P1033,62,Male,1/27/2024,Outpatient,Emergency,130,217,13.2,10904,186487,Malaria,Drug C,295,,,Referred," $5,300.00 ",Dr. Derry
+P1034,62,Female,2/26/2024,Inpatient,OPD,192,207,10.4,6591,378071,Diabetes,Drug C,100,2/26/2024,3/1/2024,Ongoing," $5,900.00 ",Dr. Fabian
+P1035,47,Female,1/31/2024,Inpatient,OPD,232,228,15.2,9895,323895,Hypertension,Drug B,92,1/31/2024,2/4/2024,Ongoing," $5,900.00 ",Dr. Irene
+P1036,62,Female,5/13/2024,Outpatient,OPD,247,282,10.8,3525,251376,Asthma,Drug B,82,,,Ongoing," $5,900.00 ",Dr. Margaret
+P1037,51,Male,6/16/2024,Inpatient,Emergency,151,189,12.1,9477,393341,Pneumonia,Drug D,292,6/16/2024,6/20/2024,Discharged," $5,300.00 ",Dr. Irene
+P1038,55,Male,4/7/2024,Inpatient,Emergency,131,277,8.1,3001,431652,Asthma,Drug B,124,4/7/2024,4/11/2024,Referred," $5,300.00 ",Dr. Margaret
+P1039,64,Male,1/12/2024,Inpatient,Emergency,214,193,8.7,3374,308056,Pneumonia,Drug A,306,1/12/2024,1/16/2024,Deceased," $5,300.00 ",Dr. Irene
+P1040,3,Male,2/22/2024,Outpatient,Pediatrics,72,182,11.5,7648,260169,Asthma,Drug A,495,,,Deceased," $1,500.00 ",Dr. Irene
+P1041,51,Male,5/17/2024,Inpatient,Emergency,229,275,12.3,5365,420269,Asthma,Drug C,404,5/17/2024,5/21/2024,Referred," $5,300.00 ",Dr. Derry
+P1042,7,Male,6/21/2024,Inpatient,Pediatrics,82,179,13.4,4525,186059,Asthma,Drug A,456,6/21/2024,6/25/2024,Referred," $1,500.00 ",Dr. Irene
+P1043,21,Female,5/24/2024,Inpatient,Maternity,189,198,10.6,4646,253409,Pneumonia,Drug D,169,5/24/2024,5/28/2024,Discharged," $10,000.00 ",Dr. Mwakio
+P1044,73,Male,6/2/2024,Inpatient,Emergency,194,156,14.3,3013,155704,Pneumonia,Drug A,186,6/2/2024,6/6/2024,Deceased," $5,300.00 ",Dr. Derry
+P1045,39,Male,5/1/2024,Outpatient,OPD,158,141,15.7,7599,354456,Asthma,Drug A,473,,,Ongoing," $3,200.00 ",Dr. Mwakio
+P1046,18,Male,2/15/2024,Outpatient,OPD,142,267,15,5278,368200,Diabetes,Drug D,402,,,Ongoing," $3,200.00 ",Dr. Margaret
+P1047,4,Female,3/4/2024,Inpatient,Pediatrics,137,215,8.4,6155,261279,Malaria,Drug B,227,3/4/2024,3/8/2024,Discharged," $1,500.00 ",Dr. Fabian
+P1048,89,Male,5/9/2024,Inpatient,Emergency,211,187,12.3,11321,308280,Malaria,Drug B,315,5/9/2024,5/13/2024,Discharged," $5,300.00 ",Dr. Margaret
+P1049,60,Male,2/23/2024,Outpatient,Emergency,170,136,8.9,6814,268516,Malaria,Drug D,436,,,Referred," $5,300.00 ",Dr. Irene
+P1050,14,Female,4/16/2024,Outpatient,Pediatrics,167,131,10.2,6216,347096,Pneumonia,Drug C,470,,,Referred," $1,500.00 ",Dr. Derry
+P1051,9,Male,2/20/2024,Inpatient,Pediatrics,80,269,16.9,11219,382549,Pneumonia,Drug A,11,2/20/2024,2/24/2024,Discharged," $1,500.00 ",Dr. Margaret
+P1052,53,Male,2/5/2024,Outpatient,Emergency,174,264,9.3,5113,179165,Diabetes,Drug D,334,,,Ongoing," $5,300.00 ",Dr. Derry
+P1053,2,Male,4/24/2024,Outpatient,Pediatrics,136,257,12.5,7356,217203,Malaria,Drug A,267,,,Discharged," $1,500.00 ",Dr. Fabian
+P1054,84,Male,1/26/2024,Inpatient,Emergency,192,237,13.6,8543,416258,Malaria,Drug C,165,1/26/2024,1/30/2024,Discharged," $5,300.00 ",Dr. Margaret
+P1055,60,Male,1/29/2024,Outpatient,Emergency,98,141,14.3,7555,186321,Asthma,Drug A,155,,,Referred," $5,300.00 ",Dr. Derry
+P1056,71,Female,5/28/2024,Inpatient,OPD,206,239,13,10062,395014,Pneumonia,Drug D,89,5/28/2024,6/1/2024,Discharged," $5,900.00 ",Dr. Irene
+P1057,44,Female,1/11/2024,Inpatient,OPD,222,169,8.1,6374,306498,Malaria,Drug A,151,1/11/2024,1/15/2024,Discharged," $5,900.00 ",Dr. Mwakio
+P1058,8,Female,2/9/2024,Inpatient,Pediatrics,145,133,10.9,9430,167772,Diabetes,Drug B,116,2/9/2024,2/13/2024,Discharged," $1,500.00 ",Dr. Irene
+P1059,47,Male,1/11/2024,Inpatient,Emergency,239,294,12.7,6466,415856,Diabetes,Drug C,385,1/11/2024,1/15/2024,Ongoing," $5,300.00 ",Dr. Derry
+P1060,35,Male,6/12/2024,Outpatient,OPD,78,148,8.8,6081,388389,Malaria,Drug C,407,,,Discharged," $3,200.00 ",Dr. Fabian
+P1061,78,Male,4/22/2024,Inpatient,Emergency,109,283,11.2,3629,265142,Pneumonia,Drug C,40,4/22/2024,4/26/2024,Referred," $5,300.00 ",Dr. Mwakio
+P1062,81,Female,2/8/2024,Inpatient,OPD,94,299,8.3,3269,241736,Diabetes,Drug D,289,2/8/2024,2/12/2024,Ongoing," $5,900.00 ",Dr. Mwakio
+P1063,36,Male,2/23/2024,Inpatient,OPD,74,244,8.7,8724,201924,Asthma,Drug C,192,2/23/2024,2/27/2024,Ongoing," $3,200.00 ",Dr. Fabian
+P1064,50,Male,4/7/2024,Inpatient,Emergency,208,126,11.6,8897,153726,Diabetes,Drug B,86,4/7/2024,4/11/2024,Discharged," $5,300.00 ",Dr. Margaret
+P1065,4,Female,2/24/2024,Outpatient,Pediatrics,193,148,9.2,6432,177723,Hypertension,Drug D,6,,,Referred," $1,500.00 ",Dr. Derry
+P1066,2,Male,4/20/2024,Inpatient,Pediatrics,107,258,13.1,9276,384182,Hypertension,Drug B,389,4/20/2024,4/24/2024,Referred," $1,500.00 ",Dr. Margaret
+P1067,6,Female,5/31/2024,Outpatient,Pediatrics,141,152,14.2,8895,290180,Pneumonia,Drug A,307,,,Discharged," $1,500.00 ",Dr. Irene
+P1068,54,Female,5/29/2024,Inpatient,OPD,202,253,15.2,10115,358786,Malaria,Drug A,201,5/29/2024,6/2/2024,Discharged," $5,900.00 ",Dr. Derry
+P1069,4,Female,3/9/2024,Outpatient,Pediatrics,245,230,9.8,9656,185643,Pneumonia,Drug A,408,,,Discharged," $1,500.00 ",Dr. Mwakio
+P1070,54,Male,2/25/2024,Outpatient,Emergency,159,198,9.5,3575,312396,Pneumonia,Drug A,15,,,Referred," $5,300.00 ",Dr. Derry
+P1071,63,Male,2/2/2024,Outpatient,Emergency,215,279,8.9,10029,364432,Pneumonia,Drug B,238,,,Discharged," $5,300.00 ",Dr. Fabian
+P1072,18,Male,2/5/2024,Inpatient,OPD,106,298,13.7,9099,289999,Pneumonia,Drug D,390,2/5/2024,2/9/2024,Discharged," $3,200.00 ",Dr. Margaret
+P1073,44,Male,5/27/2024,Outpatient,Emergency,129,177,14.4,6192,229973,Asthma,Drug D,199,,,Ongoing," $5,300.00 ",Dr. Derry
+P1074,34,Male,3/21/2024,Inpatient,OPD,245,145,8.3,6178,259834,Asthma,Drug C,475,3/21/2024,3/25/2024,Ongoing," $3,200.00 ",Dr. Irene
+P1075,74,Male,4/18/2024,Inpatient,Emergency,97,293,16.4,9052,386386,Diabetes,Drug B,123,4/18/2024,4/22/2024,Discharged," $5,300.00 ",Dr. Derry
+P1076,62,Male,6/2/2024,Outpatient,Emergency,150,148,8.5,5734,437681,Hypertension,Drug A,400,,,Discharged," $5,300.00 ",Dr. Margaret
+P1077,14,Female,3/13/2024,Outpatient,Pediatrics,183,123,12.9,9116,257522,Pneumonia,Drug B,24,,,Deceased," $1,500.00 ",Dr. Irene
+P1078,48,Male,2/9/2024,Outpatient,Emergency,109,218,14.4,6568,172612,Diabetes,Drug C,265,,,Discharged," $5,300.00 ",Dr. Margaret
+P1079,15,Female,1/17/2024,Outpatient,Maternity,114,260,15.8,5203,375049,Hypertension,Drug C,297,,,Referred," $10,000.00 ",Dr. Fabian
+P1080,72,Male,5/8/2024,Outpatient,Emergency,131,158,14.4,4390,418615,Malaria,Drug B,426,,,Discharged," $5,300.00 ",Dr. Fabian
+P1081,78,Male,3/1/2024,Inpatient,Emergency,162,134,15.2,4742,316703,Asthma,Drug B,260,3/1/2024,3/5/2024,Discharged," $5,300.00 ",Dr. Mwakio
+P1082,87,Male,6/19/2024,Inpatient,Emergency,184,238,11.1,4925,390069,Hypertension,Drug B,226,6/19/2024,6/23/2024,Deceased," $5,300.00 ",Dr. Margaret
+P1083,62,Female,4/13/2024,Outpatient,OPD,136,148,15.3,3619,373131,Malaria,Drug D,397,,,Deceased," $5,900.00 ",Dr. Mwakio
+P1084,40,Female,2/11/2024,Inpatient,Maternity,125,276,8.7,4274,181348,Hypertension,Drug A,230,2/11/2024,2/15/2024,Referred," $10,000.00 ",Dr. Irene
+P1085,85,Female,1/25/2024,Outpatient,OPD,109,194,16.1,3956,345804,Asthma,Drug B,57,,,Ongoing," $5,900.00 ",Dr. Derry
+P1086,80,Female,2/8/2024,Inpatient,OPD,167,235,12.9,4939,413321,Asthma,Drug B,432,2/8/2024,2/12/2024,Ongoing," $5,900.00 ",Dr. Fabian
+P1087,82,Male,2/4/2024,Inpatient,Emergency,109,151,15.4,6953,285832,Diabetes,Drug B,359,2/4/2024,2/8/2024,Discharged," $5,300.00 ",Dr. Margaret
+P1088,53,Female,5/10/2024,Outpatient,OPD,160,249,12.1,3968,444923,Pneumonia,Drug C,346,,,Discharged," $5,900.00 ",Dr. Margaret
+P1089,24,Male,4/17/2024,Outpatient,OPD,102,294,13.8,3281,433780,Hypertension,Drug C,368,,,Ongoing," $3,200.00 ",Dr. Fabian
+P1090,26,Male,6/20/2024,Inpatient,OPD,75,203,12.7,9262,231889,Hypertension,Drug D,284,6/20/2024,6/24/2024,Ongoing," $3,200.00 ",Dr. Mwakio
+P1091,89,Female,6/27/2024,Inpatient,OPD,216,141,14.6,4058,203551,Malaria,Drug A,85,6/27/2024,7/1/2024,Deceased," $5,900.00 ",Dr. Irene
+P1092,60,Female,4/11/2024,Inpatient,OPD,149,146,8.7,7293,292635,Asthma,Drug D,206,4/11/2024,4/15/2024,Ongoing," $5,900.00 ",Dr. Margaret
+P1093,41,Female,4/7/2024,Inpatient,OPD,237,200,8.5,8178,196819,Hypertension,Drug A,162,4/7/2024,4/11/2024,Ongoing," $5,900.00 ",Dr. Mwakio
+P1094,29,Female,1/12/2024,Outpatient,Maternity,161,245,10.2,9980,362781,Asthma,Drug C,124,,,Discharged," $10,000.00 ",Dr. Irene
+P1095,15,Female,1/19/2024,Inpatient,Maternity,166,211,9.4,4229,308059,Hypertension,Drug C,63,1/19/2024,1/23/2024,Deceased," $10,000.00 ",Dr. Irene
+P1096,45,Female,4/10/2024,Outpatient,OPD,128,140,15.8,7585,339420,Diabetes,Drug C,498,,,Ongoing," $5,900.00 ",Dr. Irene
+P1097,65,Female,2/13/2024,Inpatient,OPD,128,166,10,11467,174596,Pneumonia,Drug D,219,2/13/2024,2/17/2024,Deceased," $5,900.00 ",Dr. Margaret
+P1098,89,Female,2/18/2024,Inpatient,OPD,117,220,16.8,5740,209182,Hypertension,Drug B,132,2/18/2024,2/22/2024,Ongoing," $5,900.00 ",Dr. Mwakio
+P1099,71,Male,1/17/2024,Outpatient,Emergency,238,203,11,5289,278803,Asthma,Drug B,228,,,Deceased," $5,300.00 ",Dr. Mwakio
+P1100,62,Male,1/28/2025,Inpatient,Emergency,,,,,,Flu,,,1/28/2025,2/1/2025,Referred," $5,300.00 ",Dr. Mwakio
+P1101,7,Female,1/26/2025,Inpatient,Pediatrics,,,,,,Pneumonia,,,1/26/2025,1/30/2025,Referred," $1,500.00 ",Dr. Irene
+P1102,62,Female,2/3/2025,Inpatient,OPD,,,,,,Pneumonia,,,2/3/2025,2/7/2025,Deceased," $5,900.00 ",Dr. Derry
+P1103,53,Male,2/21/2025,Inpatient,Emergency,,,,,,Flu,,,2/21/2025,2/25/2025,Discharged," $5,300.00 ",Dr. Fabian
+P1104,30,Female,2/1/2025,Inpatient,Maternity,,,,,,Malaria,,,2/1/2025,2/5/2025,Deceased," $10,000.00 ",Dr. Margaret
+P1105,15,Male,2/18/2025,Inpatient,OPD,,,,,,Diarrhea,,,2/18/2025,2/22/2025,Deceased," $3,200.00 ",Dr. Irene
+P1106,45,Female,2/17/2025,Inpatient,OPD,,,,,,Flu,,,2/17/2025,2/21/2025,Discharged," $5,900.00 ",Dr. Margaret
+P1107,19,Male,2/26/2025,Outpatient,OPD,,,,,,Flu,,,,,Discharged," $3,200.00 ",Dr. Derry
+P1108,8,Female,2/27/2025,Outpatient,Pediatrics,,,,,,Pneumonia,,,,,Discharged," $1,500.00 ",Dr. Mwakio
+P1109,22,Female,1/30/2025,Outpatient,Maternity,,,,,,Diarrhea,,,,,Discharged," $10,000.00 ",Dr. Margaret
+P1110,10,Male,1/11/2025,Outpatient,Pediatrics,,,,,,Flu,,,,,Discharged," $1,500.00 ",Dr. Derry
+P1111,54,Male,2/25/2025,Outpatient,Emergency,,,,,,Malaria,,,,,Deceased," $5,300.00 ",Dr. Mwakio
+P1112,21,Male,1/26/2025,Outpatient,OPD,,,,,,Hypertension,,,,,Ongoing," $3,200.00 ",Dr. Irene
+P1113,49,Female,3/1/2025,Outpatient,OPD,,,,,,Pneumonia,,,,,Referred," $5,900.00 ",Dr. Derry
+P1114,14,Female,1/1/2025,Inpatient,Pediatrics,,,,,,Pneumonia,,,1/1/2025,1/5/2025,Discharged," $1,500.00 ",Dr. Fabian
+P1115,6,Female,1/2/2025,Outpatient,Pediatrics,,,,,,Pneumonia,,,,,Discharged," $1,500.00 ",Dr. Margaret
+P1116,75,Female,2/12/2025,Inpatient,OPD,,,,,,Hypertension,,,2/12/2025,2/16/2025,Ongoing," $5,900.00 ",Dr. Irene
+P1117,51,Male,2/18/2025,Inpatient,Emergency,,,,,,Malaria,,,2/18/2025,2/22/2025,Referred," $5,300.00 ",Dr. Margaret
+P1118,32,Male,2/18/2025,Inpatient,OPD,,,,,,Pneumonia,,,2/18/2025,2/22/2025,Discharged," $3,200.00 ",Dr. Derry
+P1119,74,Female,2/22/2025,Outpatient,OPD,,,,,,Hypertension,,,,,Ongoing," $5,900.00 ",Dr. Mwakio
+P1120,38,Female,1/22/2025,Outpatient,Maternity,,,,,,Hypertension,,,,,Discharged," $10,000.00 ",Dr. Margaret
+P1121,57,Female,2/14/2025,Outpatient,OPD,,,,,,Malaria,,,,,Referred," $5,900.00 ",Dr. Derry
+P1122,34,Female,2/10/2025,Outpatient,Maternity,,,,,,Diarrhea,,,,,Discharged," $10,000.00 ",Dr. Derry
+P1123,44,Female,2/28/2025,Inpatient,OPD,,,,,,Pneumonia,,,2/28/2025,3/4/2025,Discharged," $5,900.00 ",Dr. Mwakio
+P1124,16,Male,1/5/2025,Inpatient,OPD,,,,,,Pneumonia,,,1/5/2025,1/9/2025,Discharged," $3,200.00 ",Dr. Irene
+P1125,67,Female,2/26/2025,Inpatient,OPD,,,,,,Diarrhea,,,2/26/2025,3/2/2025,Referred," $5,900.00 ",Dr. Derry
+P1126,13,Male,1/22/2025,Inpatient,Pediatrics,,,,,,Pneumonia,,,1/22/2025,1/26/2025,Discharged," $1,500.00 ",Dr. Fabian
+P1127,41,Male,3/1/2025,Inpatient,Emergency,,,,,,Pneumonia,,,3/1/2025,3/5/2025,Discharged," $5,300.00 ",Dr. Margaret
+P1128,6,Male,2/21/2025,Outpatient,Pediatrics,,,,,,Diarrhea,,,,,Discharged," $1,500.00 ",Dr. Irene
+P1129,44,Male,2/12/2025,Outpatient,Emergency,,,,,,Flu,,,,,Discharged," $5,300.00 ",Dr. Derry
+P1130,61,Male,1/1/2025,Outpatient,Emergency,,,,,,Hypertension,,,,,Discharged," $5,300.00 ",Dr. Fabian
+P1131,79,Female,1/25/2025,Outpatient,OPD,,,,,,Pneumonia,,,,,Deceased," $5,900.00 ",Dr. Margaret
+P1132,71,Male,2/6/2025,Inpatient,Emergency,,,,,,Flu,,,2/6/2025,2/10/2025,Referred," $5,300.00 ",Dr. Margaret
+P1133,36,Female,2/3/2025,Outpatient,Maternity,,,,,,Hypertension,,,,,Discharged," $10,000.00 ",Dr. Fabian
+P1134,71,Female,2/26/2025,Inpatient,OPD,,,,,,Flu,,,2/26/2025,3/2/2025,Discharged," $5,900.00 ",Dr. Mwakio
+P1135,63,Male,2/12/2025,Outpatient,Emergency,,,,,,Flu,,,,,Discharged," $5,300.00 ",Dr. Mwakio
+P1136,12,Female,1/14/2025,Inpatient,Pediatrics,,,,,,Malaria,,,1/14/2025,1/18/2025,Discharged," $1,500.00 ",Dr. Derry
+P1137,18,Female,2/3/2025,Inpatient,Maternity,,,,,,Malaria,,,2/3/2025,2/7/2025,Discharged," $10,000.00 ",Dr. Irene
+P1138,23,Female,2/12/2025,Outpatient,Maternity,,,,,,Flu,,,,,Discharged," $10,000.00 ",Dr. Derry
+P1139,27,Female,2/4/2025,Outpatient,Maternity,,,,,,Hypertension,,,,,Referred," $10,000.00 ",Dr. Irene
+P1140,27,Male,1/18/2025,Inpatient,OPD,,,,,,Malaria,,,1/18/2025,1/22/2025,Referred," $3,200.00 ",Dr. Margaret
+P1141,79,Male,1/4/2025,Inpatient,Emergency,,,,,,Pneumonia,,,1/4/2025,1/8/2025,Referred," $5,300.00 ",Dr. Fabian
+P1142,50,Male,1/16/2025,Inpatient,Emergency,,,,,,Hypertension,,,1/16/2025,1/20/2025,Referred," $5,300.00 ",Dr. Fabian
+P1143,54,Female,1/28/2025,Outpatient,OPD,,,,,,Flu,,,,,Discharged," $5,900.00 ",Dr. Mwakio
+P1144,77,Female,2/11/2025,Outpatient,OPD,,,,,,Flu,,,,,Discharged," $5,900.00 ",Dr. Margaret
+P1145,15,Male,1/12/2025,Inpatient,OPD,,,,,,Pneumonia,,,1/12/2025,1/16/2025,Referred," $3,200.00 ",Dr. Margaret
+P1146,50,Male,1/30/2025,Inpatient,Emergency,,,,,,Flu,,,1/30/2025,2/3/2025,Discharged," $5,300.00 ",Dr. Mwakio
+P1147,5,Male,1/25/2025,Inpatient,Pediatrics,,,,,,Hypertension,,,1/25/2025,1/29/2025,Deceased," $1,500.00 ",Dr. Irene
+P1148,25,Female,1/11/2025,Inpatient,Maternity,,,,,,Diarrhea,,,1/11/2025,1/15/2025,Referred," $10,000.00 ",Dr. Irene
+P1149,77,Male,1/15/2025,Inpatient,Emergency,,,,,,Flu,,,1/15/2025,1/19/2025,Discharged," $5,300.00 ",Dr. Irene
+P1150,45,Female,1/11/2025,Inpatient,OPD,,,,,,Diarrhea,,,1/11/2025,1/15/2025,Referred," $5,900.00 ",Dr. Mwakio
+P1151,15,Female,2/17/2025,Outpatient,Maternity,,,,,,Flu,,,,,Referred," $10,000.00 ",Dr. Irene
+P1152,54,Male,2/6/2025,Outpatient,Emergency,,,,,,Hypertension,,,,,Discharged," $5,300.00 ",Dr. Derry
+P1153,6,Female,1/13/2025,Outpatient,Pediatrics,,,,,,Flu,,,,,Discharged," $1,500.00 ",Dr. Fabian
+P1154,45,Male,1/20/2025,Inpatient,Emergency,,,,,,Flu,,,1/20/2025,1/24/2025,Discharged," $5,300.00 ",Dr. Margaret
+P1155,25,Female,1/28/2025,Inpatient,Maternity,,,,,,Diarrhea,,,1/28/2025,2/1/2025,Referred," $10,000.00 ",Dr. Irene
+P1156,57,Female,3/2/2025,Inpatient,OPD,,,,,,Malaria,,,3/2/2025,3/6/2025,Discharged," $5,900.00 ",Dr. Margaret
+P1157,74,Female,2/1/2025,Inpatient,OPD,,,,,,Malaria,,,2/1/2025,2/5/2025,Discharged," $5,900.00 ",Dr. Derry
+P1158,23,Male,1/7/2025,Outpatient,OPD,,,,,,Pneumonia,,,,,Discharged," $3,200.00 ",Dr. Mwakio
+P1159,30,Female,1/29/2025,Inpatient,Maternity,,,,,,Pneumonia,,,1/29/2025,2/2/2025,Discharged," $10,000.00 ",Dr. Margaret
+P1160,61,Female,1/14/2025,Outpatient,OPD,,,,,,Malaria,,,,,Discharged," $5,900.00 ",Dr. Derry
+P1161,20,Male,1/27/2025,Inpatient,OPD,,,,,,Flu,,,1/27/2025,1/31/2025,Referred," $3,200.00 ",Dr. Mwakio
+P1162,35,Male,1/11/2025,Inpatient,OPD,,,,,,Diarrhea,,,1/11/2025,1/15/2025,Deceased," $3,200.00 ",Dr. Irene
+P1163,40,Female,1/7/2025,Outpatient,Maternity,,,,,,Diarrhea,,,,,Discharged," $10,000.00 ",Dr. Derry
+P1164,34,Male,2/15/2025,Inpatient,OPD,,,,,,Malaria,,,2/15/2025,2/19/2025,Referred," $3,200.00 ",Dr. Fabian
+P1165,17,Female,2/11/2025,Inpatient,Maternity,,,,,,Diarrhea,,,2/11/2025,2/15/2025,Discharged," $10,000.00 ",Dr. Margaret
+P1166,35,Male,2/24/2025,Outpatient,OPD,,,,,,Flu,,,,,Discharged," $3,200.00 ",Dr. Irene
+P1167,72,Male,3/2/2025,Inpatient,Emergency,,,,,,Flu,,,3/2/2025,3/6/2025,Referred," $5,300.00 ",Dr. Margaret
+P1168,18,Female,1/6/2025,Outpatient,Maternity,,,,,,Hypertension,,,,,Discharged," $10,000.00 ",Dr. Derry
+P1169,18,Male,2/9/2025,Outpatient,OPD,,,,,,Diarrhea,,,,,Discharged," $3,200.00 ",Dr. Mwakio
+P1170,8,Female,2/9/2025,Inpatient,Pediatrics,,,,,,Diarrhea,,,2/9/2025,2/13/2025,Deceased," $1,500.00 ",Dr. Margaret
+P1171,56,Female,3/2/2025,Outpatient,OPD,,,,,,Flu,,,,,Discharged," $5,900.00 ",Dr. Derry
+P1172,6,Male,2/10/2025,Outpatient,Pediatrics,,,,,,Flu,,,,,Discharged," $1,500.00 ",Dr. Derry
+P1173,80,Male,1/26/2025,Inpatient,Emergency,,,,,,Diarrhea,,,1/26/2025,1/30/2025,Deceased," $5,300.00 ",Dr. Mwakio
+P1174,39,Female,2/24/2025,Outpatient,Maternity,,,,,,Malaria,,,,,Deceased," $10,000.00 ",Dr. Irene
+P1175,13,Female,1/11/2025,Outpatient,Pediatrics,,,,,,Pneumonia,,,,,Deceased," $1,500.00 ",Dr. Derry
+P1176,14,Female,1/17/2025,Inpatient,Pediatrics,,,,,,Diarrhea,,,1/17/2025,1/21/2025,Discharged," $1,500.00 ",Dr. Fabian
+P1177,29,Female,3/2/2025,Outpatient,Maternity,,,,,,Pneumonia,,,,,Deceased," $10,000.00 ",Dr. Margaret
+P1178,1,Male,1/24/2025,Outpatient,Pediatrics,,,,,,Hypertension,,,,,Deceased," $1,500.00 ",Dr. Irene
+P1179,72,Male,1/24/2025,Inpatient,Emergency,,,,,,Diarrhea,,,1/24/2025,1/28/2025,Discharged," $5,300.00 ",Dr. Derry
+P1180,74,Male,2/17/2025,Inpatient,Emergency,,,,,,Malaria,,,2/17/2025,2/21/2025,Discharged," $5,300.00 ",Dr. Fabian
+P1181,80,Female,1/12/2025,Inpatient,OPD,,,,,,Malaria,,,1/12/2025,1/16/2025,Discharged," $5,900.00 ",Dr. Margaret
+P1182,31,Male,1/26/2025,Inpatient,OPD,,,,,,Diarrhea,,,1/26/2025,1/30/2025,Discharged," $3,200.00 ",Dr. Margaret
+P1183,65,Male,1/19/2025,Outpatient,Emergency,,,,,,Malaria,,,,,Discharged," $5,300.00 ",Dr. Fabian
+P1184,45,Female,1/5/2025,Inpatient,OPD,,,,,,Pneumonia,,,1/5/2025,1/9/2025,Deceased," $5,900.00 ",Dr. Mwakio
+P1185,6,Male,1/11/2025,Inpatient,Pediatrics,,,,,,Malaria,,,1/11/2025,1/15/2025,Referred," $1,500.00 ",Dr. Mwakio
+P1186,77,Female,2/23/2025,Outpatient,OPD,,,,,,Hypertension,,,,,Ongoing," $5,900.00 ",Dr. Derry
+P1187,50,Female,2/23/2025,Inpatient,OPD,,,,,,Diarrhea,,,2/23/2025,2/27/2025,Discharged," $5,900.00 ",Dr. Irene
+P1188,55,Male,1/15/2025,Inpatient,Emergency,,,,,,Flu,,,1/15/2025,1/19/2025,Discharged," $5,300.00 ",Dr. Derry
+P1189,53,Male,1/20/2025,Outpatient,Emergency,,,,,,Malaria,,,,,Discharged," $5,300.00 ",Dr. Irene
+P1190,18,Female,1/27/2025,Outpatient,Maternity,,,,,,Hypertension,,,,,Referred," $10,000.00 ",Dr. Margaret
+P1191,44,Female,1/9/2025,Outpatient,OPD,,,,,,Flu,,,,,Discharged," $5,900.00 ",Dr. Fabian
+P1192,25,Male,1/23/2025,Outpatient,OPD,,,,,,Malaria,,,,,Referred," $3,200.00 ",Dr. Fabian
+P1193,22,Male,2/10/2025,Outpatient,OPD,,,,,,Flu,,,,,Discharged," $3,200.00 ",Dr. Mwakio
+P1194,73,Male,1/2/2025,Inpatient,Emergency,,,,,,Malaria,,,1/2/2025,1/6/2025,Discharged," $5,300.00 ",Dr. Margaret
+P1195,46,Female,2/26/2025,Outpatient,OPD,,,,,,Hypertension,,,,,Ongoing," $5,900.00 ",Dr. Margaret
+P1196,21,Male,1/11/2025,Inpatient,OPD,,,,,,Malaria,,,1/11/2025,1/15/2025,Deceased," $3,200.00 ",Dr. Mwakio
+P1197,36,Male,1/10/2025,Inpatient,OPD,,,,,,Flu,,,1/10/2025,1/14/2025,Discharged," $3,200.00 ",Dr. Irene
+P1198,4,Male,1/26/2025,Outpatient,Pediatrics,,,,,,Flu,,,,,Discharged," $1,500.00 ",Dr. Irene
+P1199,14,Female,2/1/2025,Inpatient,Emergency,,,,,,Diarrhea,,,2/1/2025,2/5/2025,Discharged," $1,500.00 ",Dr. Irene
+P1202,32,Female,9/30/2024,Outpatient,Maternity,,,,,,Diarrhea,,,,,Discharged," $5,717.00 ",Dr. Mwangi
+P1203,64,Female,8/5/2024,Inpatient,OPD,,,,,,Diabetes,,,8/5/2024,8/9/2024,Referred," $3,172.00 ",Dr. Kimani
+P1204,75,Male,8/1/2024,Outpatient,Emergency,,,,,,COVID-19,,,,,Referred," $19,674.00 ",Dr. Njeri
+P1205,32,Male,11/24/2024,Inpatient,OPD,,,,,,COVID-19,,,11/24/2024,11/28/2024,Ongoing," $6,854.00 ",Dr. Mwangi
+P1206,70,Male,11/27/2024,Outpatient,Emergency,,,,,,Malaria,,,,,Discharged, $632.00 ,Dr. Achieng
+P1207,51,Male,11/30/2024,Outpatient,Emergency,,,,,,Asthma,,,,,Ongoing," $4,374.00 ",Dr. Kimani
+P1208,16,Male,9/5/2024,Inpatient,OPD,,,,,,Pneumonia,,,9/5/2024,9/9/2024,Deceased," $13,706.00 ",Dr. Njeri
+P1209,31,Female,10/16/2024,Inpatient,Maternity,,,,,,Asthma,,,10/16/2024,10/20/2024,Discharged," $5,065.00 ",Dr. Achieng
+P1210,68,Male,10/28/2024,Outpatient,Emergency,,,,,,Diabetes,,,,,Ongoing," $4,936.00 ",Dr. Kimani
+P1211,35,Female,7/21/2024,Inpatient,Maternity,,,,,,Asthma,,,7/21/2024,7/25/2024,Referred," $7,353.00 ",Dr. Otieno
+P1212,61,Female,11/11/2024,Inpatient,OPD,,,,,,Malaria,,,11/11/2024,11/15/2024,Discharged," $10,072.00 ",Dr. Mwangi
+P1213,7,Female,11/2/2024,Inpatient,Pediatrics,,,,,,Skin Infection,,,11/2/2024,11/6/2024,Discharged," $15,949.00 ",Dr. Kimani
+P1214,55,Female,11/28/2024,Outpatient,OPD,,,,,,Diarrhea,,,,,Referred," $12,966.00 ",Dr. Kimani
+P1215,57,Male,10/11/2024,Outpatient,Emergency,,,,,,Diabetes,,,,,Referred," $15,613.00 ",Dr. Njeri
+P1216,55,Male,7/3/2024,Inpatient,Emergency,,,,,,Tuberculosis,,,7/3/2024,7/7/2024,Discharged," $5,036.00 ",Dr. Otieno
+P1217,59,Female,11/11/2024,Inpatient,OPD,,,,,,Skin Infection,,,11/11/2024,11/15/2024,Discharged," $7,949.00 ",Dr. Njeri
+P1218,12,Female,9/22/2024,Inpatient,Pediatrics,,,,,,Hypertension,,,9/22/2024,9/26/2024,Referred," $14,372.00 ",Dr. Achieng
+P1219,45,Male,7/13/2024,Outpatient,Emergency,,,,,,COVID-19,,,,,Ongoing," $13,690.00 ",Dr. Mwangi
+P1220,43,Female,12/18/2024,Outpatient,OPD,,,,,,Flu,,,,,Deceased," $14,714.00 ",Dr. Njeri
+P1221,21,Female,8/29/2024,Outpatient,Maternity,,,,,,Diarrhea,,,,,Discharged," $10,558.00 ",Dr. Kimani
+P1222,79,Male,8/15/2024,Inpatient,Emergency,,,,,,Diabetes,,,8/15/2024,8/19/2024,Referred," $2,738.00 ",Dr. Achieng
+P1223,4,Male,12/17/2024,Outpatient,Pediatrics,,,,,,Pneumonia,,,,,Referred," $6,017.00 ",Dr. Mwangi
+P1224,74,Male,11/26/2024,Outpatient,Emergency,,,,,,Diarrhea,,,,,Ongoing," $10,855.00 ",Dr. Mwangi
+P1225,4,Male,11/27/2024,Outpatient,Pediatrics,,,,,,Asthma,,,,,Ongoing," $8,227.00 ",Dr. Achieng
+P1226,36,Male,7/9/2024,Inpatient,OPD,,,,,,Skin Infection,,,7/9/2024,7/13/2024,Ongoing," $15,285.00 ",Dr. Achieng
+P1227,37,Female,11/15/2024,Inpatient,Maternity,,,,,,Malaria,,,11/15/2024,11/19/2024,Discharged," $6,232.00 ",Dr. Otieno
+P1228,49,Male,10/17/2024,Outpatient,Emergency,,,,,,Hypertension,,,,,Deceased," $4,255.00 ",Dr. Njeri
+P1229,26,Male,12/1/2024,Outpatient,OPD,,,,,,COVID-19,,,,,Deceased," $12,825.00 ",Dr. Kimani
+P1230,60,Female,7/14/2024,Inpatient,OPD,,,,,,Skin Infection,,,7/14/2024,7/18/2024,Discharged," $18,688.00 ",Dr. Mwangi
+P1231,48,Male,8/7/2024,Outpatient,Emergency,,,,,,Pneumonia,,,,,Deceased," $11,589.00 ",Dr. Njeri
+P1232,32,Male,9/11/2024,Outpatient,OPD,,,,,,Asthma,,,,,Ongoing," $1,215.00 ",Dr. Njeri
+P1233,62,Male,12/15/2024,Outpatient,Emergency,,,,,,Asthma,,,,,Ongoing," $3,755.00 ",Dr. Mwangi
+P1234,70,Female,10/15/2024,Outpatient,OPD,,,,,,Skin Infection,,,,,Ongoing," $17,956.00 ",Dr. Mwangi
+P1235,64,Female,7/14/2024,Outpatient,OPD,,,,,,Malaria,,,,,Referred," $4,503.00 ",Dr. Otieno
+P1236,27,Male,8/12/2024,Outpatient,OPD,,,,,,Diabetes,,,,,Ongoing," $10,001.00 ",Dr. Otieno
+P1237,57,Female,8/4/2024,Inpatient,OPD,,,,,,Skin Infection,,,8/4/2024,8/8/2024,Ongoing," $14,295.00 ",Dr. Njeri
+P1238,62,Male,10/7/2024,Outpatient,Emergency,,,,,,Tuberculosis,,,,,Ongoing," $19,333.00 ",Dr. Kimani
+P1239,69,Male,12/1/2024,Outpatient,Emergency,,,,,,Diabetes,,,,,Discharged," $15,290.00 ",Dr. Otieno
+P1240,57,Female,7/3/2024,Inpatient,OPD,,,,,,Flu,,,7/3/2024,7/7/2024,Referred," $11,573.00 ",Dr. Otieno
+P1241,12,Male,10/8/2024,Inpatient,Pediatrics,,,,,,Malaria,,,10/8/2024,10/12/2024,Deceased," $15,400.00 ",Dr. Mwangi
+P1242,1,Female,9/5/2024,Outpatient,Pediatrics,,,,,,Asthma,,,,,Deceased," $11,672.00 ",Dr. Kimani
+P1243,4,Male,11/6/2024,Outpatient,Pediatrics,,,,,,Diarrhea,,,,,Referred," $6,453.00 ",Dr. Njeri
+P1244,54,Female,9/3/2024,Inpatient,OPD,,,,,,Diarrhea,,,9/3/2024,9/7/2024,Referred," $6,712.00 ",Dr. Otieno
+P1245,34,Female,7/25/2024,Outpatient,Maternity,,,,,,Diabetes,,,,,Discharged," $8,469.00 ",Dr. Achieng
+P1246,45,Female,11/15/2024,Outpatient,OPD,,,,,,Malaria,,,,,Deceased," $2,353.00 ",Dr. Njeri
+P1247,46,Female,7/4/2024,Outpatient,OPD,,,,,,Tuberculosis,,,,,Ongoing," $19,465.00 ",Dr. Achieng
+P1248,66,Male,10/26/2024,Outpatient,Emergency,,,,,,Diabetes,,,,,Ongoing," $3,747.00 ",Dr. Njeri
+P1249,1,Male,10/24/2024,Inpatient,Pediatrics,,,,,,Malaria,,,10/24/2024,10/28/2024,Discharged," $10,836.00 ",Dr. Kimani
+P1250,66,Female,12/30/2024,Outpatient,OPD,,,,,,Diarrhea,,,,,Discharged," $1,526.00 ",Dr. Njeri
+P1251,48,Male,12/25/2024,Outpatient,Emergency,,,,,,Hypertension,,,,,Referred," $6,709.00 ",Dr. Achieng
+P1252,26,Female,8/4/2024,Outpatient,Maternity,,,,,,Malaria,,,,,Referred," $17,118.00 ",Dr. Achieng
+P1253,80,Female,12/22/2024,Inpatient,OPD,,,,,,Diabetes,,,12/22/2024,12/26/2024,Discharged," $15,797.00 ",Dr. Mwangi
+P1254,81,Female,11/15/2024,Outpatient,OPD,,,,,,Asthma,,,,,Ongoing," $2,033.00 ",Dr. Otieno
+P1255,26,Female,10/15/2024,Inpatient,Maternity,,,,,,Tuberculosis,,,10/15/2024,10/19/2024,Discharged," $11,772.00 ",Dr. Otieno
+P1256,31,Female,7/25/2024,Inpatient,Maternity,,,,,,Malaria,,,7/25/2024,7/29/2024,Discharged," $13,212.00 ",Dr. Kimani
+P1257,80,Female,10/26/2024,Inpatient,OPD,,,,,,COVID-19,,,10/26/2024,10/30/2024,Referred," $5,579.00 ",Dr. Njeri
+P1258,72,Male,12/27/2024,Inpatient,Emergency,,,,,,Asthma,,,12/27/2024,12/31/2024,Discharged," $11,575.00 ",Dr. Mwangi
+P1259,49,Female,11/29/2024,Outpatient,OPD,,,,,,Skin Infection,,,,,Discharged," $3,246.00 ",Dr. Njeri
+P1260,82,Female,9/24/2024,Outpatient,OPD,,,,,,COVID-19,,,,,Discharged," $1,311.00 ",Dr. Achieng
+P1261,52,Male,9/10/2024,Inpatient,Emergency,,,,,,Skin Infection,,,9/10/2024,9/14/2024,Ongoing," $3,466.00 ",Dr. Mwangi
+P1262,7,Male,8/30/2024,Inpatient,Pediatrics,,,,,,Malaria,,,8/30/2024,9/3/2024,Discharged," $3,905.00 ",Dr. Otieno
+P1263,59,Female,11/12/2024,Inpatient,OPD,,,,,,Asthma,,,11/12/2024,11/16/2024,Referred," $3,079.00 ",Dr. Otieno
+P1264,4,Female,11/1/2024,Inpatient,Pediatrics,,,,,,Asthma,,,11/1/2024,11/5/2024,Ongoing," $14,751.00 ",Dr. Kimani
+P1265,18,Male,12/15/2024,Outpatient,OPD,,,,,,COVID-19,,,,,Ongoing," $2,743.00 ",Dr. Otieno
+P1266,54,Male,12/30/2024,Outpatient,Emergency,,,,,,Skin Infection,,,,,Discharged," $15,011.00 ",Dr. Achieng
+P1267,5,Male,8/11/2024,Inpatient,Pediatrics,,,,,,Skin Infection,,,8/11/2024,8/15/2024,Referred," $10,617.00 ",Dr. Njeri
+P1268,32,Male,9/1/2024,Outpatient,OPD,,,,,,Diarrhea,,,,,Referred," $5,527.00 ",Dr. Njeri
+P1269,71,Female,10/20/2024,Outpatient,OPD,,,,,,Flu,,,,,Discharged," $6,297.00 ",Dr. Mwangi
+P1270,68,Male,11/18/2024,Inpatient,Emergency,,,,,,Malaria,,,11/18/2024,11/22/2024,Discharged," $14,840.00 ",Dr. Achieng
+P1271,23,Male,10/2/2024,Outpatient,OPD,,,,,,COVID-19,,,,,Discharged," $4,337.00 ",Dr. Otieno
+P1272,3,Male,11/7/2024,Outpatient,Pediatrics,,,,,,Diarrhea,,,,,Referred," $4,026.00 ",Dr. Otieno
+P1273,5,Female,7/20/2024,Outpatient,Pediatrics,,,,,,Diabetes,,,,,Discharged," $9,212.00 ",Dr. Kimani
+P1274,46,Male,8/26/2024,Outpatient,Emergency,,,,,,Malaria,,,,,Discharged," $4,424.00 ",Dr. Kimani
+P1275,54,Male,10/16/2024,Outpatient,Emergency,,,,,,Skin Infection,,,,,Ongoing," $2,877.00 ",Dr. Otieno
+P1276,34,Male,11/14/2024,Outpatient,OPD,,,,,,Flu,,,,,Ongoing," $9,041.00 ",Dr. Achieng
+P1277,53,Female,9/21/2024,Outpatient,OPD,,,,,,Hypertension,,,,,Discharged," $11,153.00 ",Dr. Achieng
+P1278,62,Male,12/21/2024,Outpatient,Emergency,,,,,,Diarrhea,,,,,Discharged," $10,389.00 ",Dr. Mwangi
+P1279,77,Male,11/9/2024,Inpatient,Emergency,,,,,,Pneumonia,,,11/9/2024,11/13/2024,Deceased," $8,717.00 ",Dr. Otieno
+P1280,7,Female,11/26/2024,Outpatient,Pediatrics,,,,,,Diarrhea,,,,,Discharged," $4,335.00 ",Dr. Njeri
+P1281,31,Male,11/15/2024,Outpatient,OPD,,,,,,Skin Infection,,,,,Referred," $12,802.00 ",Dr. Kimani
+P1282,67,Female,8/21/2024,Outpatient,OPD,,,,,,Hypertension,,,,,Discharged," $14,708.00 ",Dr. Otieno
+P1283,30,Female,12/29/2024,Outpatient,Maternity,,,,,,Flu,,,,,Discharged," $15,472.00 ",Dr. Mwangi
+P1284,26,Male,12/25/2024,Outpatient,OPD,,,,,,Malaria,,,,,Deceased," $7,841.00 ",Dr. Achieng
+P1285,53,Female,9/10/2024,Inpatient,OPD,,,,,,Pneumonia,,,9/10/2024,9/14/2024,Deceased," $11,300.00 ",Dr. Otieno
+P1286,4,Female,7/9/2024,Inpatient,Pediatrics,,,,,,Flu,,,7/9/2024,7/13/2024,Referred," $9,669.00 ",Dr. Njeri
+P1287,63,Female,7/27/2024,Inpatient,OPD,,,,,,Hypertension,,,7/27/2024,7/31/2024,Ongoing," $11,936.00 ",Dr. Mwangi
+P1288,80,Male,10/28/2024,Inpatient,Emergency,,,,,,Pneumonia,,,10/28/2024,11/1/2024,Ongoing," $16,512.00 ",Dr. Kimani
+P1289,84,Male,7/29/2024,Outpatient,Emergency,,,,,,Malaria,,,,,Discharged," $16,004.00 ",Dr. Mwangi
+P1290,3,Male,12/21/2024,Inpatient,Pediatrics,,,,,,Tuberculosis,,,12/21/2024,12/25/2024,Discharged, $797.00 ,Dr. Otieno
+P1291,38,Male,12/9/2024,Inpatient,OPD,,,,,,Hypertension,,,12/9/2024,12/13/2024,Ongoing," $3,653.00 ",Dr. Achieng
+P1292,23,Male,9/16/2024,Outpatient,OPD,,,,,,Asthma,,,,,Ongoing," $13,309.00 ",Dr. Njeri
+P1293,60,Male,9/10/2024,Outpatient,Emergency,,,,,,COVID-19,,,,,Deceased," $10,723.00 ",Dr. Otieno
+P1294,38,Male,9/6/2024,Outpatient,OPD,,,,,,Diarrhea,,,,,Ongoing," $12,612.00 ",Dr. Achieng
+P1295,73,Male,7/25/2024,Inpatient,Emergency,,,,,,Tuberculosis,,,7/25/2024,7/29/2024,Ongoing, $538.00 ,Dr. Otieno
+P1296,39,Male,10/17/2024,Outpatient,OPD,,,,,,COVID-19,,,,,Discharged," $14,952.00 ",Dr. Achieng
+P1297,31,Female,7/1/2024,Outpatient,Maternity,,,,,,Diarrhea,,,,,Deceased," $3,692.00 ",Dr. Njeri
+P1298,47,Female,8/9/2024,Outpatient,OPD,,,,,,Skin Infection,,,,,Ongoing," $12,012.00 ",Dr. Njeri
+P1299,83,Male,12/21/2024,Outpatient,Emergency,,,,,,COVID-19,,,,,Deceased," $10,059.00 ",Dr. Njeri
+P1300,26,Male,8/14/2024,Inpatient,OPD,,,,,,Skin Infection,,,8/14/2024,8/18/2024,Ongoing," $2,531.00 ",Dr. Kimani
+P1301,10,Female,8/23/2024,Outpatient,Pediatrics,,,,,,COVID-19,,,,,Deceased," $17,960.00 ",Dr. Kimani
+P1302,38,Male,11/22/2024,Outpatient,OPD,,,,,,Hypertension,,,,,Referred," $10,386.00 ",Dr. Otieno
+P1303,63,Female,11/27/2024,Inpatient,OPD,,,,,,Tuberculosis,,,11/27/2024,12/1/2024,Referred," $19,868.00 ",Dr. Otieno
+P1304,51,Male,9/7/2024,Outpatient,Emergency,,,,,,Tuberculosis,,,,,Deceased," $4,345.00 ",Dr. Njeri
+P1305,47,Male,7/29/2024,Inpatient,Emergency,,,,,,Malaria,,,7/29/2024,8/2/2024,Discharged," $13,072.00 ",Dr. Achieng
+P1306,80,Male,9/7/2024,Inpatient,Emergency,,,,,,Flu,,,9/7/2024,9/11/2024,Deceased," $2,814.00 ",Dr. Mwangi
+P1307,17,Male,7/20/2024,Inpatient,OPD,,,,,,Hypertension,,,7/20/2024,7/24/2024,Ongoing," $14,685.00 ",Dr. Mwangi
+P1308,26,Female,8/25/2024,Inpatient,Maternity,,,,,,Flu,,,8/25/2024,8/29/2024,Discharged," $17,760.00 ",Dr. Mwangi
+P1309,30,Female,10/21/2024,Inpatient,Maternity,,,,,,Malaria,,,10/21/2024,10/25/2024,Discharged," $16,499.00 ",Dr. Njeri
+P1310,10,Female,8/4/2024,Inpatient,Pediatrics,,,,,,Asthma,,,8/4/2024,8/8/2024,Ongoing," $5,222.00 ",Dr. Otieno
+P1311,38,Male,7/21/2024,Outpatient,OPD,,,,,,Hypertension,,,,,Discharged," $2,801.00 ",Dr. Achieng
+P1312,41,Male,11/25/2024,Inpatient,Emergency,,,,,,Pneumonia,,,11/25/2024,11/29/2024,Discharged," $8,328.00 ",Dr. Otieno
+P1313,25,Female,7/18/2024,Outpatient,Maternity,,,,,,Diarrhea,,,,,Deceased," $10,747.00 ",Dr. Otieno
+P1314,35,Female,7/18/2024,Inpatient,Maternity,,,,,,COVID-19,,,7/18/2024,7/22/2024,Ongoing," $6,931.00 ",Dr. Mwangi
+P1315,74,Male,8/17/2024,Inpatient,Emergency,,,,,,Malaria,,,8/17/2024,8/21/2024,Referred," $5,582.00 ",Dr. Njeri
+P1316,80,Female,12/31/2024,Inpatient,OPD,,,,,,Diabetes,,,12/31/2024,1/4/2025,Discharged," $2,904.00 ",Dr. Mwangi
+P1317,19,Male,10/26/2024,Inpatient,OPD,,,,,,Malaria,,,10/26/2024,10/30/2024,Discharged, $807.00 ,Dr. Mwangi
+P1318,9,Male,8/15/2024,Outpatient,Pediatrics,,,,,,Pneumonia,,,,,Ongoing," $1,357.00 ",Dr. Kimani
+P1319,50,Female,8/28/2024,Inpatient,OPD,,,,,,Flu,,,8/28/2024,9/1/2024,Referred," $6,739.00 ",Dr. Kimani
+P1320,3,Female,12/20/2024,Outpatient,Pediatrics,,,,,,Malaria,,,,,Discharged, $642.00 ,Dr. Njeri
+P1321,41,Male,10/27/2024,Outpatient,Emergency,,,,,,Diarrhea,,,,,Ongoing," $16,249.00 ",Dr. Otieno
+P1322,54,Female,8/24/2024,Inpatient,OPD,,,,,,Pneumonia,,,8/24/2024,8/28/2024,Discharged," $17,739.00 ",Dr. Kimani
+P1323,47,Male,11/30/2024,Inpatient,Emergency,,,,,,Diabetes,,,11/30/2024,12/4/2024,Referred," $13,751.00 ",Dr. Otieno
+P1324,51,Male,12/21/2024,Inpatient,Emergency,,,,,,Diabetes,,,12/21/2024,12/25/2024,Discharged," $5,035.00 ",Dr. Mwangi
+P1325,33,Male,7/16/2024,Outpatient,OPD,,,,,,Diabetes,,,,,Discharged," $5,307.00 ",Dr. Mwangi
+P1326,75,Female,8/25/2024,Inpatient,OPD,,,,,,Asthma,,,8/25/2024,8/29/2024,Discharged," $16,552.00 ",Dr. Kimani
+P1327,45,Female,11/1/2024,Outpatient,OPD,,,,,,Asthma,,,,,Referred," $2,064.00 ",Dr. Kimani
+P1328,18,Female,7/11/2024,Inpatient,Maternity,,,,,,Asthma,,,7/11/2024,7/15/2024,Discharged," $15,101.00 ",Dr. Njeri
+P1329,37,Male,7/10/2024,Outpatient,OPD,,,,,,COVID-19,,,,,Discharged," $13,333.00 ",Dr. Njeri
+P1330,83,Male,12/19/2024,Inpatient,Emergency,,,,,,Diarrhea,,,12/19/2024,12/23/2024,Discharged, $509.00 ,Dr. Njeri
+P1331,85,Male,11/22/2024,Outpatient,Emergency,,,,,,Asthma,,,,,Discharged," $5,926.00 ",Dr. Kimani
+P1332,35,Male,10/26/2024,Inpatient,OPD,,,,,,Malaria,,,10/26/2024,10/30/2024,Discharged," $1,166.00 ",Dr. Achieng
+P1333,51,Male,10/3/2024,Outpatient,Emergency,,,,,,Diabetes,,,,,Deceased," $15,708.00 ",Dr. Njeri
+P1334,60,Female,9/20/2024,Inpatient,OPD,,,,,,Skin Infection,,,9/20/2024,9/24/2024,Referred," $14,280.00 ",Dr. Achieng
+P1335,16,Female,7/1/2024,Inpatient,Maternity,,,,,,Diabetes,,,7/1/2024,7/5/2024,Discharged," $3,007.00 ",Dr. Kimani
+P1336,59,Male,10/10/2024,Outpatient,Emergency,,,,,,Diabetes,,,,,Discharged," $9,668.00 ",Dr. Kimani
+P1337,33,Male,10/9/2024,Outpatient,OPD,,,,,,Diabetes,,,,,Discharged," $7,448.00 ",Dr. Otieno
+P1338,73,Female,7/25/2024,Outpatient,OPD,,,,,,Flu,,,,,Discharged," $17,299.00 ",Dr. Kimani
+P1339,3,Female,12/2/2024,Outpatient,Pediatrics,,,,,,Skin Infection,,,,,Discharged, $877.00 ,Dr. Achieng
+P1340,31,Male,9/9/2024,Inpatient,OPD,,,,,,Flu,,,9/9/2024,9/13/2024,Discharged," $6,229.00 ",Dr. Achieng
+P1341,8,Male,7/11/2024,Inpatient,Pediatrics,,,,,,Tuberculosis,,,7/11/2024,7/15/2024,Referred," $16,319.00 ",Dr. Kimani
+P1342,8,Male,10/2/2024,Outpatient,Pediatrics,,,,,,Asthma,,,,,Referred," $8,314.00 ",Dr. Otieno
+P1343,70,Male,12/27/2024,Inpatient,Emergency,,,,,,COVID-19,,,12/27/2024,12/31/2024,Referred," $13,662.00 ",Dr. Achieng
+P1344,26,Male,8/16/2024,Outpatient,OPD,,,,,,Malaria,,,,,Referred," $16,073.00 ",Dr. Kimani
+P1345,22,Male,8/10/2024,Outpatient,OPD,,,,,,Diarrhea,,,,,Discharged," $13,924.00 ",Dr. Kimani
+P1346,78,Male,10/16/2024,Outpatient,Emergency,,,,,,Malaria,,,,,Discharged," $15,919.00 ",Dr. Otieno
+P1347,76,Male,8/23/2024,Inpatient,Emergency,,,,,,Asthma,,,8/23/2024,8/27/2024,Referred," $8,204.00 ",Dr. Kimani
+P1348,18,Female,12/3/2024,Outpatient,Maternity,,,,,,Diarrhea,,,,,Discharged," $3,865.00 ",Dr. Kimani
+P1349,79,Female,10/27/2024,Inpatient,OPD,,,,,,Tuberculosis,,,10/27/2024,10/31/2024,Deceased, $519.00 ,Dr. Njeri
+P1350,75,Female,7/26/2024,Inpatient,OPD,,,,,,Tuberculosis,,,7/26/2024,7/30/2024,Referred," $12,191.00 ",Dr. Achieng
+P1351,32,Male,12/24/2024,Outpatient,OPD,,,,,,COVID-19,,,,,Discharged," $19,429.00 ",Dr. Njeri
+P1352,30,Female,8/5/2024,Outpatient,Maternity,,,,,,Skin Infection,,,,,Referred," $4,557.00 ",Dr. Njeri
+P1353,6,Male,10/4/2024,Outpatient,Pediatrics,,,,,,Pneumonia,,,,,Referred," $13,151.00 ",Dr. Achieng
+P1354,52,Male,7/20/2024,Outpatient,Emergency,,,,,,Diarrhea,,,,,Discharged," $9,065.00 ",Dr. Achieng
+P1355,7,Male,12/22/2024,Inpatient,Pediatrics,,,,,,Skin Infection,,,12/22/2024,12/26/2024,Discharged," $18,731.00 ",Dr. Achieng
+P1356,19,Male,12/20/2024,Inpatient,OPD,,,,,,Diarrhea,,,12/20/2024,12/24/2024,Discharged," $10,528.00 ",Dr. Njeri
+P1357,42,Male,7/22/2024,Outpatient,Emergency,,,,,,Skin Infection,,,,,Referred," $3,376.00 ",Dr. Mwangi
+P1358,8,Male,10/22/2024,Inpatient,Pediatrics,,,,,,Diarrhea,,,10/22/2024,10/26/2024,Discharged," $14,372.00 ",Dr. Kimani
+P1359,44,Male,9/1/2024,Inpatient,Emergency,,,,,,Tuberculosis,,,9/1/2024,9/5/2024,Discharged," $2,386.00 ",Dr. Otieno
+P1360,29,Female,7/9/2024,Outpatient,Maternity,,,,,,Pneumonia,,,,,Referred," $5,099.00 ",Dr. Njeri
+P1361,12,Female,12/19/2024,Outpatient,Pediatrics,,,,,,Tuberculosis,,,,,Discharged," $9,763.00 ",Dr. Achieng
+P1362,13,Male,10/14/2024,Outpatient,Pediatrics,,,,,,COVID-19,,,,,Discharged," $11,155.00 ",Dr. Njeri
+P1363,71,Female,7/1/2024,Inpatient,OPD,,,,,,Hypertension,,,7/1/2024,7/5/2024,Referred," $1,401.00 ",Dr. Mwangi
+P1364,18,Female,10/22/2024,Inpatient,Maternity,,,,,,COVID-19,,,10/22/2024,10/26/2024,Deceased," $11,073.00 ",Dr. Mwangi
+P1365,42,Female,9/22/2024,Inpatient,OPD,,,,,,Skin Infection,,,9/22/2024,9/26/2024,Discharged," $10,920.00 ",Dr. Mwangi
+P1366,28,Male,8/7/2024,Inpatient,OPD,,,,,,Pneumonia,,,8/7/2024,8/11/2024,Referred," $13,011.00 ",Dr. Mwangi
+P1367,59,Male,9/29/2024,Inpatient,Emergency,,,,,,Pneumonia,,,9/29/2024,10/3/2024,Discharged," $5,951.00 ",Dr. Njeri
+P1368,61,Male,10/13/2024,Inpatient,Emergency,,,,,,Skin Infection,,,10/13/2024,10/17/2024,Discharged," $4,881.00 ",Dr. Achieng
+P1369,49,Female,9/3/2024,Inpatient,OPD,,,,,,Pneumonia,,,9/3/2024,9/7/2024,Referred," $17,821.00 ",Dr. Njeri
+P1370,55,Female,9/18/2024,Outpatient,OPD,,,,,,Malaria,,,,,Discharged," $1,082.00 ",Dr. Mwangi
+P1371,79,Male,10/22/2024,Inpatient,Emergency,,,,,,Diarrhea,,,10/22/2024,10/26/2024,Discharged," $6,101.00 ",Dr. Achieng
+P1372,63,Male,12/14/2024,Outpatient,Emergency,,,,,,Asthma,,,,,Deceased," $19,186.00 ",Dr. Achieng
+P1373,81,Female,7/27/2024,Outpatient,OPD,,,,,,Asthma,,,,,Discharged," $19,274.00 ",Dr. Achieng
+P1374,22,Female,9/20/2024,Inpatient,Maternity,,,,,,Tuberculosis,,,9/20/2024,9/24/2024,Discharged," $4,296.00 ",Dr. Njeri
+P1375,15,Male,9/25/2024,Inpatient,OPD,,,,,,Malaria,,,9/25/2024,9/29/2024,Deceased," $12,877.00 ",Dr. Mwangi
+P1376,18,Female,12/25/2024,Outpatient,Maternity,,,,,,Asthma,,,,,Referred," $11,312.00 ",Dr. Njeri
+P1377,37,Male,9/17/2024,Outpatient,OPD,,,,,,Skin Infection,,,,,Deceased," $10,122.00 ",Dr. Mwangi
+P1378,36,Female,11/27/2024,Outpatient,Maternity,,,,,,COVID-19,,,,,Discharged," $16,010.00 ",Dr. Mwangi
+P1379,54,Male,12/18/2024,Outpatient,Emergency,,,,,,Skin Infection,,,,,Deceased," $17,941.00 ",Dr. Njeri
+P1380,19,Male,7/13/2024,Outpatient,OPD,,,,,,Asthma,,,,,Referred," $3,769.00 ",Dr. Achieng
+P1381,9,Female,9/20/2024,Inpatient,Pediatrics,,,,,,Asthma,,,9/20/2024,9/24/2024,Discharged," $10,666.00 ",Dr. Kimani
+P1382,35,Female,10/7/2024,Inpatient,Maternity,,,,,,Hypertension,,,10/7/2024,10/11/2024,Discharged," $2,019.00 ",Dr. Njeri
+P1383,11,Female,9/14/2024,Inpatient,Pediatrics,,,,,,Pneumonia,,,9/14/2024,9/18/2024,Discharged," $13,825.00 ",Dr. Otieno
+P1384,49,Male,10/15/2024,Inpatient,Emergency,,,,,,Diarrhea,,,10/15/2024,10/19/2024,Discharged," $10,947.00 ",Dr. Mwangi
+P1385,82,Male,7/26/2024,Outpatient,Emergency,,,,,,Malaria,,,,,Discharged," $5,059.00 ",Dr. Achieng
+P1386,76,Male,10/8/2024,Inpatient,Emergency,,,,,,COVID-19,,,10/8/2024,10/12/2024,Deceased," $5,013.00 ",Dr. Otieno
+P1387,60,Male,10/31/2024,Outpatient,Emergency,,,,,,Asthma,,,,,Referred," $14,983.00 ",Dr. Otieno
+P1388,53,Male,9/8/2024,Inpatient,Emergency,,,,,,Tuberculosis,,,9/8/2024,9/12/2024,Ongoing," $3,539.00 ",Dr. Otieno
+P1389,8,Male,8/10/2024,Inpatient,Pediatrics,,,,,,Asthma,,,8/10/2024,8/14/2024,Discharged," $2,144.00 ",Dr. Achieng
+P1390,72,Female,10/19/2024,Inpatient,OPD,,,,,,Hypertension,,,10/19/2024,10/23/2024,Discharged," $16,814.00 ",Dr. Njeri
+P1391,39,Female,8/22/2024,Outpatient,Maternity,,,,,,Diarrhea,,,,,Discharged," $16,891.00 ",Dr. Njeri
+P1392,49,Male,9/8/2024,Inpatient,Emergency,,,,,,Flu,,,9/8/2024,9/12/2024,Referred," $4,022.00 ",Dr. Kimani
+P1393,32,Male,11/5/2024,Inpatient,OPD,,,,,,Hypertension,,,11/5/2024,11/9/2024,Discharged," $2,293.00 ",Dr. Achieng
+P1394,78,Male,12/8/2024,Inpatient,Emergency,,,,,,Asthma,,,12/8/2024,12/12/2024,Referred," $11,506.00 ",Dr. Mwangi
+P1395,46,Female,8/11/2024,Inpatient,OPD,,,,,,Tuberculosis,,,8/11/2024,8/15/2024,Discharged," $3,684.00 ",Dr. Otieno
+P1396,32,Female,8/22/2024,Outpatient,Maternity,,,,,,Tuberculosis,,,,,Discharged," $14,998.00 ",Dr. Mwangi
+P1397,20,Female,9/25/2024,Inpatient,Maternity,,,,,,Tuberculosis,,,9/25/2024,9/29/2024,Ongoing," $12,623.00 ",Dr. Achieng
+P1398,64,Male,8/8/2024,Inpatient,Emergency,,,,,,COVID-19,,,8/8/2024,8/12/2024,Deceased," $5,768.00 ",Dr. Kimani
+P1399,6,Female,9/17/2024,Inpatient,Pediatrics,,,,,,Tuberculosis,,,9/17/2024,9/21/2024,Discharged," $1,004.00 ",Dr. Njeri
+P1400,77,Male,7/9/2024,Outpatient,Emergency,,,,,,Malaria,,,,,Discharged, $614.00 ,Dr. Njeri
+P1401,59,Female,7/3/2024,Outpatient,OPD,,,,,,Diabetes,,,,,Deceased," $7,808.00 ",Dr. Njeri
+P1402,53,Female,8/20/2024,Outpatient,OPD,,,,,,Diabetes,,,,,Discharged," $11,280.00 ",Dr. Achieng
+P1403,68,Male,8/10/2024,Inpatient,Emergency,,,,,,COVID-19,,,8/10/2024,8/14/2024,Discharged," $6,096.00 ",Dr. Kimani
+P1404,39,Female,12/15/2024,Outpatient,Maternity,,,,,,Asthma,,,,,Referred," $17,025.00 ",Dr. Kimani
+P1405,9,Male,10/23/2024,Inpatient,Pediatrics,,,,,,Tuberculosis,,,10/23/2024,10/27/2024,Referred," $10,487.00 ",Dr. Njeri
+P1406,44,Female,9/14/2024,Inpatient,OPD,,,,,,Malaria,,,9/14/2024,9/18/2024,Ongoing," $11,902.00 ",Dr. Otieno
+P1407,32,Female,12/5/2024,Outpatient,Maternity,,,,,,Diarrhea,,,,,Discharged," $10,562.00 ",Dr. Otieno
+P1408,54,Female,7/26/2024,Outpatient,OPD,,,,,,COVID-19,,,,,Ongoing," $15,278.00 ",Dr. Mwangi
+P1409,53,Male,9/2/2024,Outpatient,Emergency,,,,,,COVID-19,,,,,Deceased," $3,993.00 ",Dr. Kimani
+P1410,12,Male,9/10/2024,Inpatient,Pediatrics,,,,,,Diarrhea,,,9/10/2024,9/14/2024,Discharged," $5,446.00 ",Dr. Otieno
+P1411,5,Male,9/1/2024,Outpatient,Pediatrics,,,,,,Asthma,,,,,Ongoing," $18,130.00 ",Dr. Njeri
+P1412,5,Female,10/25/2024,Inpatient,Pediatrics,,,,,,Skin Infection,,,10/25/2024,10/29/2024,Referred," $15,826.00 ",Dr. Mwangi
+P1413,5,Male,11/8/2024,Inpatient,Pediatrics,,,,,,Flu,,,11/8/2024,11/12/2024,Discharged," $16,364.00 ",Dr. Otieno
+P1414,17,Male,10/28/2024,Outpatient,OPD,,,,,,Asthma,,,,,Discharged," $6,204.00 ",Dr. Kimani
+P1415,26,Male,10/25/2024,Inpatient,OPD,,,,,,Diarrhea,,,10/25/2024,10/29/2024,Referred," $6,116.00 ",Dr. Njeri
+P1416,46,Female,11/13/2024,Outpatient,OPD,,,,,,Diarrhea,,,,,Referred," $16,827.00 ",Dr. Mwangi
+P1417,83,Female,9/21/2024,Outpatient,OPD,,,,,,Diabetes,,,,,Deceased," $10,943.00 ",Dr. Kimani
+P1418,62,Female,9/26/2024,Outpatient,OPD,,,,,,Flu,,,,,Deceased," $16,922.00 ",Dr. Otieno
+P1419,46,Female,9/9/2024,Outpatient,OPD,,,,,,COVID-19,,,,,Referred," $10,852.00 ",Dr. Njeri
+P1420,47,Female,12/12/2024,Inpatient,OPD,,,,,,Skin Infection,,,12/12/2024,12/16/2024,Ongoing," $2,180.00 ",Dr. Otieno
+P1421,34,Male,12/3/2024,Inpatient,OPD,,,,,,Pneumonia,,,12/3/2024,12/7/2024,Deceased," $7,717.00 ",Dr. Otieno
+P1422,7,Male,12/5/2024,Outpatient,Pediatrics,,,,,,Hypertension,,,,,Discharged," $1,673.00 ",Dr. Mwangi
+P1423,26,Male,7/7/2024,Outpatient,OPD,,,,,,Pneumonia,,,,,Referred," $13,209.00 ",Dr. Kimani
+P1424,66,Male,12/9/2024,Outpatient,Emergency,,,,,,Malaria,,,,,Referred," $19,132.00 ",Dr. Achieng
+P1425,35,Female,7/20/2024,Outpatient,Maternity,,,,,,Diabetes,,,,,Ongoing," $1,450.00 ",Dr. Achieng
+P1426,60,Female,11/5/2024,Inpatient,OPD,,,,,,Flu,,,11/5/2024,11/9/2024,Ongoing," $8,410.00 ",Dr. Njeri
+P1427,2,Male,10/28/2024,Outpatient,Pediatrics,,,,,,Asthma,,,,,Ongoing," $1,309.00 ",Dr. Njeri
+P1428,33,Female,11/28/2024,Outpatient,Maternity,,,,,,Tuberculosis,,,,,Discharged," $7,358.00 ",Dr. Achieng
+P1429,66,Female,10/24/2024,Outpatient,OPD,,,,,,Diarrhea,,,,,Deceased," $15,920.00 ",Dr. Njeri
+P1430,25,Male,10/7/2024,Outpatient,OPD,,,,,,Skin Infection,,,,,Referred," $11,718.00 ",Dr. Mwangi
+P1431,84,Male,9/18/2024,Outpatient,Emergency,,,,,,Diabetes,,,,,Referred," $19,268.00 ",Dr. Achieng
+P1432,15,Female,12/25/2024,Inpatient,Maternity,,,,,,Hypertension,,,12/25/2024,12/29/2024,Deceased," $2,466.00 ",Dr. Achieng
+P1433,41,Female,12/18/2024,Inpatient,OPD,,,,,,Asthma,,,12/18/2024,12/22/2024,Ongoing," $11,703.00 ",Dr. Otieno
+P1434,27,Male,8/29/2024,Outpatient,OPD,,,,,,COVID-19,,,,,Ongoing," $2,598.00 ",Dr. Achieng
+P1435,8,Male,9/2/2024,Outpatient,Pediatrics,,,,,,Hypertension,,,,,Ongoing," $4,839.00 ",Dr. Njeri
+P1436,55,Female,10/16/2024,Outpatient,OPD,,,,,,Flu,,,,,Referred," $10,721.00 ",Dr. Otieno
+P1437,52,Male,8/11/2024,Inpatient,Emergency,,,,,,Skin Infection,,,8/11/2024,8/15/2024,Ongoing," $6,368.00 ",Dr. Kimani
+P1438,80,Female,10/3/2024,Outpatient,OPD,,,,,,Hypertension,,,,,Ongoing," $9,284.00 ",Dr. Kimani
+P1439,2,Female,12/10/2024,Outpatient,Pediatrics,,,,,,Tuberculosis,,,,,Ongoing," $6,479.00 ",Dr. Kimani
+P1440,74,Male,12/27/2024,Outpatient,Emergency,,,,,,Malaria,,,,,Discharged," $6,112.00 ",Dr. Njeri
+P1441,26,Female,8/4/2024,Inpatient,Maternity,,,,,,COVID-19,,,8/4/2024,8/8/2024,Referred," $4,566.00 ",Dr. Otieno
+P1442,11,Female,9/28/2024,Inpatient,Pediatrics,,,,,,Tuberculosis,,,9/28/2024,10/2/2024,Discharged," $5,328.00 ",Dr. Njeri
+P1443,63,Female,9/29/2024,Inpatient,OPD,,,,,,Flu,,,9/29/2024,10/3/2024,Discharged," $11,318.00 ",Dr. Kimani
+P1444,38,Female,10/19/2024,Outpatient,Maternity,,,,,,COVID-19,,,,,Referred," $12,620.00 ",Dr. Achieng
+P1445,58,Male,7/16/2024,Outpatient,Emergency,,,,,,Malaria,,,,,Referred," $13,811.00 ",Dr. Njeri
+P1446,3,Male,10/18/2024,Inpatient,Pediatrics,,,,,,Diarrhea,,,10/18/2024,10/22/2024,Discharged," $12,776.00 ",Dr. Otieno
+P1447,7,Male,10/25/2024,Outpatient,Pediatrics,,,,,,Malaria,,,,,Deceased," $6,698.00 ",Dr. Njeri
+P1448,15,Female,10/22/2024,Outpatient,Maternity,,,,,,Tuberculosis,,,,,Ongoing," $8,684.00 ",Dr. Mwangi
+P1449,9,Male,7/7/2024,Outpatient,Pediatrics,,,,,,Hypertension,,,,,Ongoing," $6,240.00 ",Dr. Kimani
+P1450,33,Male,7/8/2024,Inpatient,OPD,,,,,,Flu,,,7/8/2024,7/12/2024,Discharged," $18,453.00 ",Dr. Njeri
+P1451,62,Female,7/14/2024,Inpatient,OPD,,,,,,Skin Infection,,,7/14/2024,7/18/2024,Discharged," $10,769.00 ",Dr. Achieng
+P1452,46,Female,11/10/2024,Inpatient,OPD,,,,,,Diarrhea,,,11/10/2024,11/14/2024,Referred," $6,675.00 ",Dr. Otieno
+P1453,82,Male,11/8/2024,Outpatient,Emergency,,,,,,Flu,,,,,Referred," $5,813.00 ",Dr. Njeri
+P1454,39,Female,7/14/2024,Outpatient,Maternity,,,,,,Tuberculosis,,,,,Discharged," $12,321.00 ",Dr. Njeri
+P1455,12,Female,12/28/2024,Outpatient,Pediatrics,,,,,,COVID-19,,,,,Ongoing," $3,303.00 ",Dr. Mwangi
+P1456,33,Male,11/24/2024,Outpatient,OPD,,,,,,Malaria,,,,,Discharged," $9,552.00 ",Dr. Mwangi
+P1457,26,Male,9/9/2024,Inpatient,OPD,,,,,,Diabetes,,,9/9/2024,9/13/2024,Discharged," $8,644.00 ",Dr. Otieno
+P1458,85,Female,12/12/2024,Outpatient,OPD,,,,,,Diabetes,,,,,Referred," $7,320.00 ",Dr. Njeri
+P1459,76,Female,7/27/2024,Inpatient,OPD,,,,,,Pneumonia,,,7/27/2024,7/31/2024,Discharged, $788.00 ,Dr. Mwangi
+P1460,77,Female,11/27/2024,Inpatient,OPD,,,,,,Pneumonia,,,11/27/2024,12/1/2024,Discharged," $7,285.00 ",Dr. Njeri
+P1461,65,Male,9/22/2024,Outpatient,Emergency,,,,,,COVID-19,,,,,Ongoing," $12,977.00 ",Dr. Njeri
+P1462,36,Female,8/8/2024,Outpatient,Maternity,,,,,,Asthma,,,,,Ongoing," $7,876.00 ",Dr. Achieng
+P1463,77,Female,7/21/2024,Outpatient,OPD,,,,,,Pneumonia,,,,,Discharged," $10,636.00 ",Dr. Otieno
+P1464,29,Female,11/10/2024,Outpatient,Maternity,,,,,,Malaria,,,,,Referred, $929.00 ,Dr. Njeri
+P1465,15,Female,8/24/2024,Outpatient,Maternity,,,,,,Flu,,,,,Ongoing," $4,032.00 ",Dr. Mwangi
+P1466,50,Male,7/12/2024,Inpatient,Emergency,,,,,,Skin Infection,,,7/12/2024,7/16/2024,Ongoing," $17,281.00 ",Dr. Njeri
+P1467,9,Female,11/24/2024,Inpatient,Pediatrics,,,,,,COVID-19,,,11/24/2024,11/28/2024,Discharged, $549.00 ,Dr. Otieno
+P1468,57,Female,12/23/2024,Inpatient,OPD,,,,,,Flu,,,12/23/2024,12/27/2024,Referred," $5,314.00 ",Dr. Kimani
+P1469,83,Female,9/25/2024,Inpatient,OPD,,,,,,Tuberculosis,,,9/25/2024,9/29/2024,Referred," $14,845.00 ",Dr. Kimani
+P1470,6,Female,10/3/2024,Inpatient,Pediatrics,,,,,,Tuberculosis,,,10/3/2024,10/7/2024,Discharged," $15,772.00 ",Dr. Otieno
+P1471,42,Female,12/16/2024,Outpatient,OPD,,,,,,Diabetes,,,,,Discharged," $6,240.00 ",Dr. Kimani
+P1472,85,Male,10/30/2024,Inpatient,Emergency,,,,,,Hypertension,,,10/30/2024,11/3/2024,Discharged," $2,937.00 ",Dr. Kimani
+P1473,16,Male,12/14/2024,Inpatient,OPD,,,,,,Malaria,,,12/14/2024,12/18/2024,Referred," $2,022.00 ",Dr. Otieno
+P1474,37,Male,11/23/2024,Inpatient,OPD,,,,,,Skin Infection,,,11/23/2024,11/27/2024,Discharged," $8,353.00 ",Dr. Achieng
+P1475,25,Female,8/7/2024,Outpatient,Maternity,,,,,,Tuberculosis,,,,,Discharged," $17,897.00 ",Dr. Otieno
+P1476,77,Male,8/14/2024,Inpatient,Emergency,,,,,,Hypertension,,,8/14/2024,8/18/2024,Ongoing, $639.00 ,Dr. Mwangi
+P1477,40,Female,8/26/2024,Inpatient,Maternity,,,,,,Diarrhea,,,8/26/2024,8/30/2024,Ongoing," $6,273.00 ",Dr. Mwangi
+P1478,53,Female,7/17/2024,Inpatient,OPD,,,,,,COVID-19,,,7/17/2024,7/21/2024,Discharged," $17,347.00 ",Dr. Otieno
+P1479,47,Male,12/20/2024,Inpatient,Emergency,,,,,,Skin Infection,,,12/20/2024,12/24/2024,Discharged," $5,632.00 ",Dr. Achieng
+P1480,55,Male,9/11/2024,Outpatient,Emergency,,,,,,Pneumonia,,,,,Deceased," $10,877.00 ",Dr. Mwangi
+P1481,22,Male,8/22/2024,Inpatient,OPD,,,,,,Diabetes,,,8/22/2024,8/26/2024,Discharged," $3,398.00 ",Dr. Njeri
+P1482,13,Male,11/27/2024,Inpatient,Pediatrics,,,,,,Malaria,,,11/27/2024,12/1/2024,Referred," $1,208.00 ",Dr. Achieng
+P1483,16,Male,12/25/2024,Outpatient,OPD,,,,,,Tuberculosis,,,,,Discharged," $18,958.00 ",Dr. Otieno
+P1484,30,Female,8/26/2024,Inpatient,Maternity,,,,,,COVID-19,,,8/26/2024,8/30/2024,Discharged," $9,342.00 ",Dr. Otieno
+P1485,27,Male,11/7/2024,Outpatient,OPD,,,,,,Pneumonia,,,,,Deceased," $3,948.00 ",Dr. Njeri
+P1486,72,Male,12/1/2024,Outpatient,Emergency,,,,,,Asthma,,,,,Deceased," $12,569.00 ",Dr. Kimani
+P1487,13,Female,11/22/2024,Outpatient,Pediatrics,,,,,,Asthma,,,,,Referred," $13,631.00 ",Dr. Otieno
+P1488,68,Female,8/3/2024,Outpatient,OPD,,,,,,Tuberculosis,,,,,Ongoing," $18,107.00 ",Dr. Otieno
+P1489,24,Male,10/20/2024,Outpatient,OPD,,,,,,Skin Infection,,,,,Ongoing," $9,245.00 ",Dr. Achieng
+P1490,36,Female,9/10/2024,Outpatient,Maternity,,,,,,Skin Infection,,,,,Discharged," $12,787.00 ",Dr. Kimani
+P1491,58,Female,10/19/2024,Outpatient,OPD,,,,,,Malaria,,,,,Discharged," $13,126.00 ",Dr. Kimani
+P1492,62,Female,12/21/2024,Inpatient,OPD,,,,,,Malaria,,,12/21/2024,12/25/2024,Ongoing," $13,748.00 ",Dr. Njeri
+P1493,70,Female,11/17/2024,Inpatient,OPD,,,,,,COVID-19,,,11/17/2024,11/21/2024,Ongoing," $17,313.00 ",Dr. Njeri
+P1494,14,Male,7/22/2024,Inpatient,Pediatrics,,,,,,Flu,,,7/22/2024,7/26/2024,Deceased," $15,289.00 ",Dr. Njeri
+P1495,64,Female,7/12/2024,Inpatient,OPD,,,,,,Asthma,,,7/12/2024,7/16/2024,Ongoing," $9,222.00 ",Dr. Njeri
+P1496,30,Female,11/25/2024,Outpatient,Maternity,,,,,,Pneumonia,,,,,Ongoing," $9,050.00 ",Dr. Otieno
+P1497,35,Female,8/23/2024,Inpatient,Maternity,,,,,,Hypertension,,,8/23/2024,8/27/2024,Discharged," $5,740.00 ",Dr. Njeri
+P1498,82,Female,9/21/2024,Inpatient,OPD,,,,,,Skin Infection,,,9/21/2024,9/25/2024,Deceased," $3,342.00 ",Dr. Otieno
+P1499,22,Female,10/3/2024,Inpatient,Maternity,,,,,,Pneumonia,,,10/3/2024,10/7/2024,Ongoing," $10,738.00 ",Dr. Kimani
+P1500,39,Female,12/17/2024,Outpatient,Maternity,,,,,,Malaria,,,,,Deceased," $12,436.00 ",Dr. Njeri
+P1501,59,Female,9/12/2024,Inpatient,OPD,,,,,,Hypertension,,,9/12/2024,9/16/2024,Ongoing," $2,479.00 ",Dr. Njeri
+P1502,44,Female,12/25/2024,Inpatient,OPD,,,,,,Diarrhea,,,12/25/2024,12/29/2024,Deceased," $18,480.00 ",Dr. Njeri
+P1503,53,Female,9/12/2024,Inpatient,OPD,,,,,,Asthma,,,9/12/2024,9/16/2024,Referred," $19,475.00 ",Dr. Mwangi
+P1504,74,Female,10/25/2024,Outpatient,OPD,,,,,,Malaria,,,,,Referred," $16,796.00 ",Dr. Achieng
+P1505,39,Male,8/5/2024,Outpatient,OPD,,,,,,Malaria,,,,,Deceased," $9,491.00 ",Dr. Mwangi
+P1506,71,Male,11/28/2024,Inpatient,Emergency,,,,,,Malaria,,,11/28/2024,12/2/2024,Discharged," $10,914.00 ",Dr. Otieno
+P1507,26,Male,11/1/2024,Outpatient,OPD,,,,,,Malaria,,,,,Deceased," $13,753.00 ",Dr. Mwangi
+P1508,31,Female,11/5/2024,Outpatient,Maternity,,,,,,Skin Infection,,,,,Deceased," $4,883.00 ",Dr. Mwangi
+P1509,49,Female,7/3/2024,Inpatient,OPD,,,,,,Diabetes,,,7/3/2024,7/7/2024,Discharged," $4,641.00 ",Dr. Kimani
+P1510,12,Male,8/14/2024,Outpatient,Pediatrics,,,,,,Skin Infection,,,,,Discharged," $13,137.00 ",Dr. Otieno
+P1511,5,Male,9/18/2024,Outpatient,Pediatrics,,,,,,Diabetes,,,,,Ongoing," $5,010.00 ",Dr. Otieno
+P1512,82,Male,12/12/2024,Outpatient,Emergency,,,,,,Diabetes,,,,,Discharged," $6,930.00 ",Dr. Kimani
+P1513,29,Female,12/16/2024,Outpatient,Maternity,,,,,,Pneumonia,,,,,Discharged," $10,512.00 ",Dr. Achieng
+P1514,36,Female,10/20/2024,Outpatient,Maternity,,,,,,Flu,,,,,Deceased," $7,828.00 ",Dr. Mwangi
+P1515,4,Female,8/12/2024,Inpatient,Pediatrics,,,,,,Diarrhea,,,8/12/2024,8/16/2024,Ongoing," $6,169.00 ",Dr. Otieno
+P1516,55,Male,11/5/2024,Inpatient,Emergency,,,,,,Tuberculosis,,,11/5/2024,11/9/2024,Referred," $18,512.00 ",Dr. Njeri
+P1517,16,Male,9/11/2024,Inpatient,OPD,,,,,,Hypertension,,,9/11/2024,9/15/2024,Discharged," $5,507.00 ",Dr. Njeri
+P1518,41,Female,11/9/2024,Outpatient,OPD,,,,,,Hypertension,,,,,Discharged," $2,699.00 ",Dr. Otieno
+P1519,24,Female,7/17/2024,Outpatient,Maternity,,,,,,Skin Infection,,,,,Ongoing," $1,178.00 ",Dr. Achieng
+P1520,26,Male,11/20/2024,Inpatient,OPD,,,,,,Malaria,,,11/20/2024,11/24/2024,Referred," $11,307.00 ",Dr. Njeri
+P1521,12,Male,11/27/2024,Inpatient,Pediatrics,,,,,,Hypertension,,,11/27/2024,12/1/2024,Discharged," $3,138.00 ",Dr. Njeri
+P1522,69,Female,11/5/2024,Outpatient,OPD,,,,,,Asthma,,,,,Ongoing," $10,679.00 ",Dr. Kimani
+P1523,30,Female,12/24/2024,Outpatient,Maternity,,,,,,COVID-19,,,,,Discharged," $15,832.00 ",Dr. Mwangi
+P1524,81,Female,8/14/2024,Inpatient,OPD,,,,,,Diabetes,,,8/14/2024,8/18/2024,Referred," $9,520.00 ",Dr. Mwangi
+P1525,22,Female,11/21/2024,Inpatient,Maternity,,,,,,Diarrhea,,,11/21/2024,11/25/2024,Discharged," $1,004.00 ",Dr. Otieno
+P1526,30,Female,12/21/2024,Inpatient,Maternity,,,,,,Diarrhea,,,12/21/2024,12/25/2024,Discharged," $18,839.00 ",Dr. Otieno
+P1527,69,Male,11/3/2024,Inpatient,Emergency,,,,,,COVID-19,,,11/3/2024,11/7/2024,Discharged," $3,425.00 ",Dr. Njeri
+P1528,63,Female,9/21/2024,Inpatient,OPD,,,,,,COVID-19,,,9/21/2024,9/25/2024,Referred, $647.00 ,Dr. Otieno
+P1529,50,Female,11/18/2024,Outpatient,OPD,,,,,,Tuberculosis,,,,,Discharged," $18,333.00 ",Dr. Njeri
+P1530,39,Female,10/5/2024,Inpatient,Maternity,,,,,,Skin Infection,,,10/5/2024,10/9/2024,Discharged," $16,596.00 ",Dr. Kimani
+P1531,43,Female,9/18/2024,Inpatient,OPD,,,,,,Malaria,,,9/18/2024,9/22/2024,Discharged," $12,873.00 ",Dr. Achieng
+P1532,75,Male,8/17/2024,Outpatient,Emergency,,,,,,COVID-19,,,,,Discharged," $14,723.00 ",Dr. Achieng
+P1533,68,Female,12/22/2024,Inpatient,OPD,,,,,,Asthma,,,12/22/2024,12/26/2024,Discharged," $14,060.00 ",Dr. Achieng
+P1534,30,Male,10/2/2024,Outpatient,OPD,,,,,,Flu,,,,,Deceased," $3,354.00 ",Dr. Mwangi
+P1535,65,Female,11/9/2024,Outpatient,OPD,,,,,,Malaria,,,,,Referred," $2,539.00 ",Dr. Otieno
+P1536,28,Male,9/23/2024,Inpatient,OPD,,,,,,Skin Infection,,,9/23/2024,9/27/2024,Discharged," $16,283.00 ",Dr. Achieng
+P1537,52,Male,8/30/2024,Inpatient,Emergency,,,,,,Tuberculosis,,,8/30/2024,9/3/2024,Ongoing," $2,331.00 ",Dr. Kimani
+P1538,38,Female,10/20/2024,Outpatient,Maternity,,,,,,Skin Infection,,,,,Discharged, $551.00 ,Dr. Njeri
+P1539,79,Female,8/28/2024,Outpatient,OPD,,,,,,Diarrhea,,,,,Discharged," $1,847.00 ",Dr. Achieng
+P1540,19,Female,9/17/2024,Inpatient,Maternity,,,,,,Diarrhea,,,9/17/2024,9/21/2024,Discharged," $16,041.00 ",Dr. Njeri
+P1541,36,Male,8/11/2024,Outpatient,OPD,,,,,,Tuberculosis,,,,,Ongoing," $4,945.00 ",Dr. Njeri
+P1542,13,Female,10/7/2024,Inpatient,Pediatrics,,,,,,Skin Infection,,,10/7/2024,10/11/2024,Referred," $13,080.00 ",Dr. Achieng
+P1543,77,Female,9/9/2024,Inpatient,OPD,,,,,,Diabetes,,,9/9/2024,9/13/2024,Referred," $6,561.00 ",Dr. Kimani
+P1544,7,Male,7/13/2024,Inpatient,Pediatrics,,,,,,Diabetes,,,7/13/2024,7/17/2024,Referred," $7,919.00 ",Dr. Otieno
+P1545,7,Female,10/7/2024,Outpatient,Pediatrics,,,,,,COVID-19,,,,,Referred," $6,306.00 ",Dr. Achieng
+P1546,78,Male,11/13/2024,Inpatient,Emergency,,,,,,Malaria,,,11/13/2024,11/17/2024,Discharged," $11,500.00 ",Dr. Njeri
+P1547,2,Female,10/6/2024,Inpatient,Pediatrics,,,,,,Skin Infection,,,10/6/2024,10/10/2024,Discharged," $11,639.00 ",Dr. Otieno
+P1548,45,Female,12/24/2024,Outpatient,OPD,,,,,,Malaria,,,,,Referred," $4,176.00 ",Dr. Otieno
+P1549,34,Male,8/28/2024,Inpatient,OPD,,,,,,Pneumonia,,,8/28/2024,9/1/2024,Discharged, $505.00 ,Dr. Njeri

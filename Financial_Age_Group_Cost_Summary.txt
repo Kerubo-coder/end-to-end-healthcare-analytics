@@ -1,0 +1,14 @@
+AVERAGE TREATMENT COST BY AGE GROUP
+============================================================
+  Age Group Average Treatment Cost
+      Child              $6,566.07
+Young Adult              $7,927.43
+      Adult              $8,512.65
+ Middle Age              $8,238.91
+     Senior              $7,853.83
+
+INSIGHTS
+============================================================
+Highest average cost age group: Adult ($8,512.65)
+Lowest average cost age group: Child ($6,566.07)
+Overall average age-group cost: $7,819.78

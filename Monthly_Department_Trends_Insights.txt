@@ -1,0 +1,10 @@
+MONTHLY PATIENT TRENDS BY DEPARTMENT
+============================================================
+Peak month overall: 2024-10
+Most active department: OPD (227 total visits)
+Department with strongest month-over-month increase: Pediatrics
+
+Top 3 departments by total visits:
+  - OPD: 227 visits
+  - Emergency: 144 visits
+  - Pediatrics: 91 visits

@@ -1,0 +1,19 @@
+HOSPITAL DEMOGRAPHIC ANALYSIS REPORT
+==================================================
+
+Age Statistics:
+  Mean Age: 42.3 years
+  Median Age: 42.0 years
+  Std Dev: 24.6 years
+  Age Range: 1 - 89 years
+
+Gender Distribution:
+  Male: 280 (51.1%)
+  Female: 268 (48.9%)
+
+==================================================
+KEY INSIGHTS
+==================================================
+1. Patient population has mean age of 42.3 years
+2. Male patients comprise 51.1% of population
+3. Hospital serves a middle-aged patient population

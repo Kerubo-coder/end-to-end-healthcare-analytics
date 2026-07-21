@@ -1,0 +1,549 @@
+Patient_ID,Age,Gender,Date_of_Visit,Visit_Type,Department,Blood_Glucose,Cholesterol,Hemoglobin,WBC_Count,Platelet_Count,Diagnosis,Medication,Dosage_mg,Admission_Date,Discharge_Date,Treatment_Status,Total_Cost,Doctor
+P1000,52,Male,2024-04-23,Inpatient,Emergency,132.0,132.0,11.6,4927.0,282311.0,Hypertension,Drug B,471.0,2024-04-23,2024-04-27,Discharged,5300,Dr. Mwakio
+P1001,15,Female,2024-04-24,Outpatient,Maternity,115.0,226.0,10.5,5356.0,384746.0,Diabetes,Drug A,370.0,,,Referred,10000,Dr. Derry
+P1002,72,Male,2024-01-14,Inpatient,Emergency,157.0,164.0,16.9,7790.0,395546.0,Malaria,Drug C,166.0,2024-01-14,2024-01-18,Referred,5300,Dr. Irene
+P1003,61,Female,2024-01-09,Outpatient,OPD,80.0,208.0,11.7,3306.0,346733.0,Asthma,Drug C,384.0,,,Ongoing,5900,Dr. Mwakio
+P1004,21,Female,2024-02-09,Inpatient,Maternity,131.0,289.0,16.0,10979.0,276945.0,Hypertension,Drug D,485.0,2024-02-09,2024-02-13,Discharged,10000,Dr. Irene
+P1005,83,Female,2024-01-25,Inpatient,OPD,146.0,219.0,10.1,6665.0,195272.0,Hypertension,Drug A,91.0,2024-01-25,2024-01-29,Ongoing,5900,Dr. Derry
+P1006,87,Male,2024-04-12,Inpatient,Emergency,222.0,274.0,9.9,10057.0,296470.0,Hypertension,Drug B,59.0,2024-04-12,2024-04-16,Deceased,5300,Dr. Fabian
+P1007,75,Male,2024-01-22,Outpatient,Emergency,121.0,285.0,8.3,3661.0,270030.0,Hypertension,Drug C,480.0,,,Discharged,5300,Dr. Derry
+P1008,75,Male,2024-01-04,Outpatient,Emergency,73.0,126.0,13.9,7644.0,156570.0,Hypertension,Drug B,292.0,,,Ongoing,5300,Dr. Irene
+P1009,88,Male,2024-06-02,Inpatient,Emergency,128.0,252.0,11.3,11503.0,159110.0,Diabetes,Drug B,182.0,2024-06-02,2024-06-06,Referred,5300,Dr. Margaret
+P1010,24,Female,2024-01-29,Inpatient,Maternity,141.0,164.0,15.8,5920.0,229141.0,Asthma,Drug C,395.0,2024-01-29,2024-02-02,Discharged,10000,Dr. Margaret
+P1011,3,Male,2024-04-18,Inpatient,Pediatrics,217.0,177.0,12.3,11946.0,162115.0,Malaria,Drug B,353.0,2024-04-18,2024-04-22,Discharged,1500,Dr. Margaret
+P1012,22,Male,2024-04-07,Inpatient,OPD,162.0,150.0,16.7,9236.0,189062.0,Malaria,Drug C,12.0,2024-04-07,2024-04-11,Referred,3200,Dr. Irene
+P1013,53,Male,2024-02-06,Outpatient,Emergency,132.0,142.0,9.7,9078.0,435055.0,Malaria,Drug B,325.0,,,Referred,5300,Dr. Derry
+P1014,2,Male,2024-03-15,Inpatient,Pediatrics,123.0,289.0,15.8,3352.0,254061.0,Malaria,Drug C,317.0,2024-03-15,2024-03-19,Deceased,1500,Dr. Margaret
+P1015,88,Male,2024-03-10,Outpatient,Emergency,186.0,257.0,15.0,10005.0,444700.0,Diabetes,Drug A,251.0,,,Deceased,5300,Dr. Derry
+P1016,30,Female,2024-05-25,Inpatient,Maternity,179.0,279.0,14.9,3158.0,151969.0,Pneumonia,Drug D,327.0,2024-05-25,2024-05-29,Referred,10000,Dr. Fabian
+P1017,38,Male,2024-05-07,Outpatient,OPD,143.0,226.0,15.6,3956.0,271863.0,Asthma,Drug C,476.0,,,Ongoing,3200,Dr. Derry
+P1018,2,Female,2024-03-25,Outpatient,Pediatrics,176.0,277.0,14.8,5071.0,422369.0,Hypertension,Drug C,475.0,,,Deceased,1500,Dr. Mwakio
+P1019,64,Male,2024-02-11,Outpatient,Emergency,126.0,158.0,13.6,11595.0,273008.0,Pneumonia,Drug D,447.0,,,Discharged,5300,Dr. Margaret
+P1020,60,Female,2024-04-09,Inpatient,OPD,238.0,278.0,9.2,6453.0,304268.0,Malaria,Drug C,259.0,2024-04-09,2024-04-13,Referred,5900,Dr. Fabian
+P1021,21,Male,2024-02-10,Outpatient,OPD,72.0,201.0,8.3,9675.0,255823.0,Pneumonia,Drug C,332.0,,,Referred,3200,Dr. Mwakio
+P1022,33,Male,2024-06-14,Inpatient,OPD,189.0,219.0,16.3,3955.0,425813.0,Asthma,Drug B,58.0,2024-06-14,2024-06-18,Ongoing,3200,Dr. Mwakio
+P1023,76,Female,2024-02-03,Outpatient,OPD,75.0,121.0,13.5,9295.0,260677.0,Hypertension,Drug D,253.0,,,Ongoing,5900,Dr. Derry
+P1024,58,Female,2024-01-17,Outpatient,OPD,74.0,196.0,15.2,4712.0,396958.0,Hypertension,Drug A,243.0,,,Ongoing,5900,Dr. Irene
+P1025,22,Female,2024-06-13,Outpatient,Maternity,74.0,131.0,12.3,7703.0,198320.0,Asthma,Drug C,233.0,,,Discharged,10000,Dr. Mwakio
+P1026,89,Male,2024-06-01,Outpatient,Emergency,123.0,158.0,9.1,9563.0,296649.0,Asthma,Drug D,71.0,,,Deceased,5300,Dr. Derry
+P1027,49,Female,2024-05-01,Outpatient,OPD,116.0,132.0,9.1,8631.0,275354.0,Malaria,Drug B,55.0,,,Deceased,5900,Dr. Margaret
+P1028,59,Male,2024-03-16,Outpatient,Emergency,246.0,165.0,14.2,4394.0,238009.0,Hypertension,Drug A,101.0,,,Deceased,5300,Dr. Irene
+P1029,42,Male,2024-03-27,Inpatient,Emergency,78.0,274.0,11.9,7732.0,407437.0,Pneumonia,Drug D,96.0,2024-03-27,2024-03-31,Deceased,5300,Dr. Fabian
+P1030,60,Female,2024-04-26,Inpatient,OPD,168.0,232.0,9.8,6714.0,178625.0,Diabetes,Drug A,499.0,2024-04-26,2024-04-30,Ongoing,5900,Dr. Margaret
+P1031,80,Female,2024-04-15,Inpatient,OPD,89.0,136.0,12.4,3529.0,362112.0,Diabetes,Drug A,268.0,2024-04-15,2024-04-19,Ongoing,5900,Dr. Mwakio
+P1032,15,Male,2024-03-26,Outpatient,OPD,191.0,223.0,8.6,5958.0,436233.0,Asthma,Drug A,422.0,,,Ongoing,3200,Dr. Margaret
+P1033,62,Male,2024-01-27,Outpatient,Emergency,130.0,217.0,13.2,10904.0,186487.0,Malaria,Drug C,295.0,,,Referred,5300,Dr. Derry
+P1034,62,Female,2024-02-26,Inpatient,OPD,192.0,207.0,10.4,6591.0,378071.0,Diabetes,Drug C,100.0,2024-02-26,2024-03-01,Ongoing,5900,Dr. Fabian
+P1035,47,Female,2024-01-31,Inpatient,OPD,232.0,228.0,15.2,9895.0,323895.0,Hypertension,Drug B,92.0,2024-01-31,2024-02-04,Ongoing,5900,Dr. Irene
+P1036,62,Female,2024-05-13,Outpatient,OPD,247.0,282.0,10.8,3525.0,251376.0,Asthma,Drug B,82.0,,,Ongoing,5900,Dr. Margaret
+P1037,51,Male,2024-06-16,Inpatient,Emergency,151.0,189.0,12.1,9477.0,393341.0,Pneumonia,Drug D,292.0,2024-06-16,2024-06-20,Discharged,5300,Dr. Irene
+P1038,55,Male,2024-04-07,Inpatient,Emergency,131.0,277.0,8.1,3001.0,431652.0,Asthma,Drug B,124.0,2024-04-07,2024-04-11,Referred,5300,Dr. Margaret
+P1039,64,Male,2024-01-12,Inpatient,Emergency,214.0,193.0,8.7,3374.0,308056.0,Pneumonia,Drug A,306.0,2024-01-12,2024-01-16,Deceased,5300,Dr. Irene
+P1040,3,Male,2024-02-22,Outpatient,Pediatrics,72.0,182.0,11.5,7648.0,260169.0,Asthma,Drug A,495.0,,,Deceased,1500,Dr. Irene
+P1041,51,Male,2024-05-17,Inpatient,Emergency,229.0,275.0,12.3,5365.0,420269.0,Asthma,Drug C,404.0,2024-05-17,2024-05-21,Referred,5300,Dr. Derry
+P1042,7,Male,2024-06-21,Inpatient,Pediatrics,82.0,179.0,13.4,4525.0,186059.0,Asthma,Drug A,456.0,2024-06-21,2024-06-25,Referred,1500,Dr. Irene
+P1043,21,Female,2024-05-24,Inpatient,Maternity,189.0,198.0,10.6,4646.0,253409.0,Pneumonia,Drug D,169.0,2024-05-24,2024-05-28,Discharged,10000,Dr. Mwakio
+P1044,73,Male,2024-06-02,Inpatient,Emergency,194.0,156.0,14.3,3013.0,155704.0,Pneumonia,Drug A,186.0,2024-06-02,2024-06-06,Deceased,5300,Dr. Derry
+P1045,39,Male,2024-05-01,Outpatient,OPD,158.0,141.0,15.7,7599.0,354456.0,Asthma,Drug A,473.0,,,Ongoing,3200,Dr. Mwakio
+P1046,18,Male,2024-02-15,Outpatient,OPD,142.0,267.0,15.0,5278.0,368200.0,Diabetes,Drug D,402.0,,,Ongoing,3200,Dr. Margaret
+P1047,4,Female,2024-03-04,Inpatient,Pediatrics,137.0,215.0,8.4,6155.0,261279.0,Malaria,Drug B,227.0,2024-03-04,2024-03-08,Discharged,1500,Dr. Fabian
+P1048,89,Male,2024-05-09,Inpatient,Emergency,211.0,187.0,12.3,11321.0,308280.0,Malaria,Drug B,315.0,2024-05-09,2024-05-13,Discharged,5300,Dr. Margaret
+P1049,60,Male,2024-02-23,Outpatient,Emergency,170.0,136.0,8.9,6814.0,268516.0,Malaria,Drug D,436.0,,,Referred,5300,Dr. Irene
+P1050,14,Female,2024-04-16,Outpatient,Pediatrics,167.0,131.0,10.2,6216.0,347096.0,Pneumonia,Drug C,470.0,,,Referred,1500,Dr. Derry
+P1051,9,Male,2024-02-20,Inpatient,Pediatrics,80.0,269.0,16.9,11219.0,382549.0,Pneumonia,Drug A,11.0,2024-02-20,2024-02-24,Discharged,1500,Dr. Margaret
+P1052,53,Male,2024-02-05,Outpatient,Emergency,174.0,264.0,9.3,5113.0,179165.0,Diabetes,Drug D,334.0,,,Ongoing,5300,Dr. Derry
+P1053,2,Male,2024-04-24,Outpatient,Pediatrics,136.0,257.0,12.5,7356.0,217203.0,Malaria,Drug A,267.0,,,Discharged,1500,Dr. Fabian
+P1054,84,Male,2024-01-26,Inpatient,Emergency,192.0,237.0,13.6,8543.0,416258.0,Malaria,Drug C,165.0,2024-01-26,2024-01-30,Discharged,5300,Dr. Margaret
+P1055,60,Male,2024-01-29,Outpatient,Emergency,98.0,141.0,14.3,7555.0,186321.0,Asthma,Drug A,155.0,,,Referred,5300,Dr. Derry
+P1056,71,Female,2024-05-28,Inpatient,OPD,206.0,239.0,13.0,10062.0,395014.0,Pneumonia,Drug D,89.0,2024-05-28,2024-06-01,Discharged,5900,Dr. Irene
+P1057,44,Female,2024-01-11,Inpatient,OPD,222.0,169.0,8.1,6374.0,306498.0,Malaria,Drug A,151.0,2024-01-11,2024-01-15,Discharged,5900,Dr. Mwakio
+P1058,8,Female,2024-02-09,Inpatient,Pediatrics,145.0,133.0,10.9,9430.0,167772.0,Diabetes,Drug B,116.0,2024-02-09,2024-02-13,Discharged,1500,Dr. Irene
+P1059,47,Male,2024-01-11,Inpatient,Emergency,239.0,294.0,12.7,6466.0,415856.0,Diabetes,Drug C,385.0,2024-01-11,2024-01-15,Ongoing,5300,Dr. Derry
+P1060,35,Male,2024-06-12,Outpatient,OPD,78.0,148.0,8.8,6081.0,388389.0,Malaria,Drug C,407.0,,,Discharged,3200,Dr. Fabian
+P1061,78,Male,2024-04-22,Inpatient,Emergency,109.0,283.0,11.2,3629.0,265142.0,Pneumonia,Drug C,40.0,2024-04-22,2024-04-26,Referred,5300,Dr. Mwakio
+P1062,81,Female,2024-02-08,Inpatient,OPD,94.0,299.0,8.3,3269.0,241736.0,Diabetes,Drug D,289.0,2024-02-08,2024-02-12,Ongoing,5900,Dr. Mwakio
+P1063,36,Male,2024-02-23,Inpatient,OPD,74.0,244.0,8.7,8724.0,201924.0,Asthma,Drug C,192.0,2024-02-23,2024-02-27,Ongoing,3200,Dr. Fabian
+P1064,50,Male,2024-04-07,Inpatient,Emergency,208.0,126.0,11.6,8897.0,153726.0,Diabetes,Drug B,86.0,2024-04-07,2024-04-11,Discharged,5300,Dr. Margaret
+P1065,4,Female,2024-02-24,Outpatient,Pediatrics,193.0,148.0,9.2,6432.0,177723.0,Hypertension,Drug D,6.0,,,Referred,1500,Dr. Derry
+P1066,2,Male,2024-04-20,Inpatient,Pediatrics,107.0,258.0,13.1,9276.0,384182.0,Hypertension,Drug B,389.0,2024-04-20,2024-04-24,Referred,1500,Dr. Margaret
+P1067,6,Female,2024-05-31,Outpatient,Pediatrics,141.0,152.0,14.2,8895.0,290180.0,Pneumonia,Drug A,307.0,,,Discharged,1500,Dr. Irene
+P1068,54,Female,2024-05-29,Inpatient,OPD,202.0,253.0,15.2,10115.0,358786.0,Malaria,Drug A,201.0,2024-05-29,2024-06-02,Discharged,5900,Dr. Derry
+P1069,4,Female,2024-03-09,Outpatient,Pediatrics,245.0,230.0,9.8,9656.0,185643.0,Pneumonia,Drug A,408.0,,,Discharged,1500,Dr. Mwakio
+P1070,54,Male,2024-02-25,Outpatient,Emergency,159.0,198.0,9.5,3575.0,312396.0,Pneumonia,Drug A,15.0,,,Referred,5300,Dr. Derry
+P1071,63,Male,2024-02-02,Outpatient,Emergency,215.0,279.0,8.9,10029.0,364432.0,Pneumonia,Drug B,238.0,,,Discharged,5300,Dr. Fabian
+P1072,18,Male,2024-02-05,Inpatient,OPD,106.0,298.0,13.7,9099.0,289999.0,Pneumonia,Drug D,390.0,2024-02-05,2024-02-09,Discharged,3200,Dr. Margaret
+P1073,44,Male,2024-05-27,Outpatient,Emergency,129.0,177.0,14.4,6192.0,229973.0,Asthma,Drug D,199.0,,,Ongoing,5300,Dr. Derry
+P1074,34,Male,2024-03-21,Inpatient,OPD,245.0,145.0,8.3,6178.0,259834.0,Asthma,Drug C,475.0,2024-03-21,2024-03-25,Ongoing,3200,Dr. Irene
+P1075,74,Male,2024-04-18,Inpatient,Emergency,97.0,293.0,16.4,9052.0,386386.0,Diabetes,Drug B,123.0,2024-04-18,2024-04-22,Discharged,5300,Dr. Derry
+P1076,62,Male,2024-06-02,Outpatient,Emergency,150.0,148.0,8.5,5734.0,437681.0,Hypertension,Drug A,400.0,,,Discharged,5300,Dr. Margaret
+P1077,14,Female,2024-03-13,Outpatient,Pediatrics,183.0,123.0,12.9,9116.0,257522.0,Pneumonia,Drug B,24.0,,,Deceased,1500,Dr. Irene
+P1078,48,Male,2024-02-09,Outpatient,Emergency,109.0,218.0,14.4,6568.0,172612.0,Diabetes,Drug C,265.0,,,Discharged,5300,Dr. Margaret
+P1079,15,Female,2024-01-17,Outpatient,Maternity,114.0,260.0,15.8,5203.0,375049.0,Hypertension,Drug C,297.0,,,Referred,10000,Dr. Fabian
+P1080,72,Male,2024-05-08,Outpatient,Emergency,131.0,158.0,14.4,4390.0,418615.0,Malaria,Drug B,426.0,,,Discharged,5300,Dr. Fabian
+P1081,78,Male,2024-03-01,Inpatient,Emergency,162.0,134.0,15.2,4742.0,316703.0,Asthma,Drug B,260.0,2024-03-01,2024-03-05,Discharged,5300,Dr. Mwakio
+P1082,87,Male,2024-06-19,Inpatient,Emergency,184.0,238.0,11.1,4925.0,390069.0,Hypertension,Drug B,226.0,2024-06-19,2024-06-23,Deceased,5300,Dr. Margaret
+P1083,62,Female,2024-04-13,Outpatient,OPD,136.0,148.0,15.3,3619.0,373131.0,Malaria,Drug D,397.0,,,Deceased,5900,Dr. Mwakio
+P1084,40,Female,2024-02-11,Inpatient,Maternity,125.0,276.0,8.7,4274.0,181348.0,Hypertension,Drug A,230.0,2024-02-11,2024-02-15,Referred,10000,Dr. Irene
+P1085,85,Female,2024-01-25,Outpatient,OPD,109.0,194.0,16.1,3956.0,345804.0,Asthma,Drug B,57.0,,,Ongoing,5900,Dr. Derry
+P1086,80,Female,2024-02-08,Inpatient,OPD,167.0,235.0,12.9,4939.0,413321.0,Asthma,Drug B,432.0,2024-02-08,2024-02-12,Ongoing,5900,Dr. Fabian
+P1087,82,Male,2024-02-04,Inpatient,Emergency,109.0,151.0,15.4,6953.0,285832.0,Diabetes,Drug B,359.0,2024-02-04,2024-02-08,Discharged,5300,Dr. Margaret
+P1088,53,Female,2024-05-10,Outpatient,OPD,160.0,249.0,12.1,3968.0,444923.0,Pneumonia,Drug C,346.0,,,Discharged,5900,Dr. Margaret
+P1089,24,Male,2024-04-17,Outpatient,OPD,102.0,294.0,13.8,3281.0,433780.0,Hypertension,Drug C,368.0,,,Ongoing,3200,Dr. Fabian
+P1090,26,Male,2024-06-20,Inpatient,OPD,75.0,203.0,12.7,9262.0,231889.0,Hypertension,Drug D,284.0,2024-06-20,2024-06-24,Ongoing,3200,Dr. Mwakio
+P1091,89,Female,2024-06-27,Inpatient,OPD,216.0,141.0,14.6,4058.0,203551.0,Malaria,Drug A,85.0,2024-06-27,2024-07-01,Deceased,5900,Dr. Irene
+P1092,60,Female,2024-04-11,Inpatient,OPD,149.0,146.0,8.7,7293.0,292635.0,Asthma,Drug D,206.0,2024-04-11,2024-04-15,Ongoing,5900,Dr. Margaret
+P1093,41,Female,2024-04-07,Inpatient,OPD,237.0,200.0,8.5,8178.0,196819.0,Hypertension,Drug A,162.0,2024-04-07,2024-04-11,Ongoing,5900,Dr. Mwakio
+P1094,29,Female,2024-01-12,Outpatient,Maternity,161.0,245.0,10.2,9980.0,362781.0,Asthma,Drug C,124.0,,,Discharged,10000,Dr. Irene
+P1095,15,Female,2024-01-19,Inpatient,Maternity,166.0,211.0,9.4,4229.0,308059.0,Hypertension,Drug C,63.0,2024-01-19,2024-01-23,Deceased,10000,Dr. Irene
+P1096,45,Female,2024-04-10,Outpatient,OPD,128.0,140.0,15.8,7585.0,339420.0,Diabetes,Drug C,498.0,,,Ongoing,5900,Dr. Irene
+P1097,65,Female,2024-02-13,Inpatient,OPD,128.0,166.0,10.0,11467.0,174596.0,Pneumonia,Drug D,219.0,2024-02-13,2024-02-17,Deceased,5900,Dr. Margaret
+P1098,89,Female,2024-02-18,Inpatient,OPD,117.0,220.0,16.8,5740.0,209182.0,Hypertension,Drug B,132.0,2024-02-18,2024-02-22,Ongoing,5900,Dr. Mwakio
+P1099,71,Male,2024-01-17,Outpatient,Emergency,238.0,203.0,11.0,5289.0,278803.0,Asthma,Drug B,228.0,,,Deceased,5300,Dr. Mwakio
+P1100,62,Male,2025-01-28,Inpatient,Emergency,,,,,,Flu,,,2025-01-28,2025-02-01,Referred,5300,Dr. Mwakio
+P1101,7,Female,2025-01-26,Inpatient,Pediatrics,,,,,,Pneumonia,,,2025-01-26,2025-01-30,Referred,1500,Dr. Irene
+P1102,62,Female,2025-02-03,Inpatient,OPD,,,,,,Pneumonia,,,2025-02-03,2025-02-07,Deceased,5900,Dr. Derry
+P1103,53,Male,2025-02-21,Inpatient,Emergency,,,,,,Flu,,,2025-02-21,2025-02-25,Discharged,5300,Dr. Fabian
+P1104,30,Female,2025-02-01,Inpatient,Maternity,,,,,,Malaria,,,2025-02-01,2025-02-05,Deceased,10000,Dr. Margaret
+P1105,15,Male,2025-02-18,Inpatient,OPD,,,,,,Diarrhea,,,2025-02-18,2025-02-22,Deceased,3200,Dr. Irene
+P1106,45,Female,2025-02-17,Inpatient,OPD,,,,,,Flu,,,2025-02-17,2025-02-21,Discharged,5900,Dr. Margaret
+P1107,19,Male,2025-02-26,Outpatient,OPD,,,,,,Flu,,,,,Discharged,3200,Dr. Derry
+P1108,8,Female,2025-02-27,Outpatient,Pediatrics,,,,,,Pneumonia,,,,,Discharged,1500,Dr. Mwakio
+P1109,22,Female,2025-01-30,Outpatient,Maternity,,,,,,Diarrhea,,,,,Discharged,10000,Dr. Margaret
+P1110,10,Male,2025-01-11,Outpatient,Pediatrics,,,,,,Flu,,,,,Discharged,1500,Dr. Derry
+P1111,54,Male,2025-02-25,Outpatient,Emergency,,,,,,Malaria,,,,,Deceased,5300,Dr. Mwakio
+P1112,21,Male,2025-01-26,Outpatient,OPD,,,,,,Hypertension,,,,,Ongoing,3200,Dr. Irene
+P1113,49,Female,2025-03-01,Outpatient,OPD,,,,,,Pneumonia,,,,,Referred,5900,Dr. Derry
+P1114,14,Female,2025-01-01,Inpatient,Pediatrics,,,,,,Pneumonia,,,2025-01-01,2025-01-05,Discharged,1500,Dr. Fabian
+P1115,6,Female,2025-01-02,Outpatient,Pediatrics,,,,,,Pneumonia,,,,,Discharged,1500,Dr. Margaret
+P1116,75,Female,2025-02-12,Inpatient,OPD,,,,,,Hypertension,,,2025-02-12,2025-02-16,Ongoing,5900,Dr. Irene
+P1117,51,Male,2025-02-18,Inpatient,Emergency,,,,,,Malaria,,,2025-02-18,2025-02-22,Referred,5300,Dr. Margaret
+P1118,32,Male,2025-02-18,Inpatient,OPD,,,,,,Pneumonia,,,2025-02-18,2025-02-22,Discharged,3200,Dr. Derry
+P1119,74,Female,2025-02-22,Outpatient,OPD,,,,,,Hypertension,,,,,Ongoing,5900,Dr. Mwakio
+P1120,38,Female,2025-01-22,Outpatient,Maternity,,,,,,Hypertension,,,,,Discharged,10000,Dr. Margaret
+P1121,57,Female,2025-02-14,Outpatient,OPD,,,,,,Malaria,,,,,Referred,5900,Dr. Derry
+P1122,34,Female,2025-02-10,Outpatient,Maternity,,,,,,Diarrhea,,,,,Discharged,10000,Dr. Derry
+P1123,44,Female,2025-02-28,Inpatient,OPD,,,,,,Pneumonia,,,2025-02-28,2025-03-04,Discharged,5900,Dr. Mwakio
+P1124,16,Male,2025-01-05,Inpatient,OPD,,,,,,Pneumonia,,,2025-01-05,2025-01-09,Discharged,3200,Dr. Irene
+P1125,67,Female,2025-02-26,Inpatient,OPD,,,,,,Diarrhea,,,2025-02-26,2025-03-02,Referred,5900,Dr. Derry
+P1126,13,Male,2025-01-22,Inpatient,Pediatrics,,,,,,Pneumonia,,,2025-01-22,2025-01-26,Discharged,1500,Dr. Fabian
+P1127,41,Male,2025-03-01,Inpatient,Emergency,,,,,,Pneumonia,,,2025-03-01,2025-03-05,Discharged,5300,Dr. Margaret
+P1128,6,Male,2025-02-21,Outpatient,Pediatrics,,,,,,Diarrhea,,,,,Discharged,1500,Dr. Irene
+P1129,44,Male,2025-02-12,Outpatient,Emergency,,,,,,Flu,,,,,Discharged,5300,Dr. Derry
+P1130,61,Male,2025-01-01,Outpatient,Emergency,,,,,,Hypertension,,,,,Discharged,5300,Dr. Fabian
+P1131,79,Female,2025-01-25,Outpatient,OPD,,,,,,Pneumonia,,,,,Deceased,5900,Dr. Margaret
+P1132,71,Male,2025-02-06,Inpatient,Emergency,,,,,,Flu,,,2025-02-06,2025-02-10,Referred,5300,Dr. Margaret
+P1133,36,Female,2025-02-03,Outpatient,Maternity,,,,,,Hypertension,,,,,Discharged,10000,Dr. Fabian
+P1134,71,Female,2025-02-26,Inpatient,OPD,,,,,,Flu,,,2025-02-26,2025-03-02,Discharged,5900,Dr. Mwakio
+P1135,63,Male,2025-02-12,Outpatient,Emergency,,,,,,Flu,,,,,Discharged,5300,Dr. Mwakio
+P1136,12,Female,2025-01-14,Inpatient,Pediatrics,,,,,,Malaria,,,2025-01-14,2025-01-18,Discharged,1500,Dr. Derry
+P1137,18,Female,2025-02-03,Inpatient,Maternity,,,,,,Malaria,,,2025-02-03,2025-02-07,Discharged,10000,Dr. Irene
+P1138,23,Female,2025-02-12,Outpatient,Maternity,,,,,,Flu,,,,,Discharged,10000,Dr. Derry
+P1139,27,Female,2025-02-04,Outpatient,Maternity,,,,,,Hypertension,,,,,Referred,10000,Dr. Irene
+P1140,27,Male,2025-01-18,Inpatient,OPD,,,,,,Malaria,,,2025-01-18,2025-01-22,Referred,3200,Dr. Margaret
+P1141,79,Male,2025-01-04,Inpatient,Emergency,,,,,,Pneumonia,,,2025-01-04,2025-01-08,Referred,5300,Dr. Fabian
+P1142,50,Male,2025-01-16,Inpatient,Emergency,,,,,,Hypertension,,,2025-01-16,2025-01-20,Referred,5300,Dr. Fabian
+P1143,54,Female,2025-01-28,Outpatient,OPD,,,,,,Flu,,,,,Discharged,5900,Dr. Mwakio
+P1144,77,Female,2025-02-11,Outpatient,OPD,,,,,,Flu,,,,,Discharged,5900,Dr. Margaret
+P1145,15,Male,2025-01-12,Inpatient,OPD,,,,,,Pneumonia,,,2025-01-12,2025-01-16,Referred,3200,Dr. Margaret
+P1146,50,Male,2025-01-30,Inpatient,Emergency,,,,,,Flu,,,2025-01-30,2025-02-03,Discharged,5300,Dr. Mwakio
+P1147,5,Male,2025-01-25,Inpatient,Pediatrics,,,,,,Hypertension,,,2025-01-25,2025-01-29,Deceased,1500,Dr. Irene
+P1148,25,Female,2025-01-11,Inpatient,Maternity,,,,,,Diarrhea,,,2025-01-11,2025-01-15,Referred,10000,Dr. Irene
+P1149,77,Male,2025-01-15,Inpatient,Emergency,,,,,,Flu,,,2025-01-15,2025-01-19,Discharged,5300,Dr. Irene
+P1150,45,Female,2025-01-11,Inpatient,OPD,,,,,,Diarrhea,,,2025-01-11,2025-01-15,Referred,5900,Dr. Mwakio
+P1151,15,Female,2025-02-17,Outpatient,Maternity,,,,,,Flu,,,,,Referred,10000,Dr. Irene
+P1152,54,Male,2025-02-06,Outpatient,Emergency,,,,,,Hypertension,,,,,Discharged,5300,Dr. Derry
+P1153,6,Female,2025-01-13,Outpatient,Pediatrics,,,,,,Flu,,,,,Discharged,1500,Dr. Fabian
+P1154,45,Male,2025-01-20,Inpatient,Emergency,,,,,,Flu,,,2025-01-20,2025-01-24,Discharged,5300,Dr. Margaret
+P1155,25,Female,2025-01-28,Inpatient,Maternity,,,,,,Diarrhea,,,2025-01-28,2025-02-01,Referred,10000,Dr. Irene
+P1156,57,Female,2025-03-02,Inpatient,OPD,,,,,,Malaria,,,2025-03-02,2025-03-06,Discharged,5900,Dr. Margaret
+P1157,74,Female,2025-02-01,Inpatient,OPD,,,,,,Malaria,,,2025-02-01,2025-02-05,Discharged,5900,Dr. Derry
+P1158,23,Male,2025-01-07,Outpatient,OPD,,,,,,Pneumonia,,,,,Discharged,3200,Dr. Mwakio
+P1159,30,Female,2025-01-29,Inpatient,Maternity,,,,,,Pneumonia,,,2025-01-29,2025-02-02,Discharged,10000,Dr. Margaret
+P1160,61,Female,2025-01-14,Outpatient,OPD,,,,,,Malaria,,,,,Discharged,5900,Dr. Derry
+P1161,20,Male,2025-01-27,Inpatient,OPD,,,,,,Flu,,,2025-01-27,2025-01-31,Referred,3200,Dr. Mwakio
+P1162,35,Male,2025-01-11,Inpatient,OPD,,,,,,Diarrhea,,,2025-01-11,2025-01-15,Deceased,3200,Dr. Irene
+P1163,40,Female,2025-01-07,Outpatient,Maternity,,,,,,Diarrhea,,,,,Discharged,10000,Dr. Derry
+P1164,34,Male,2025-02-15,Inpatient,OPD,,,,,,Malaria,,,2025-02-15,2025-02-19,Referred,3200,Dr. Fabian
+P1165,17,Female,2025-02-11,Inpatient,Maternity,,,,,,Diarrhea,,,2025-02-11,2025-02-15,Discharged,10000,Dr. Margaret
+P1166,35,Male,2025-02-24,Outpatient,OPD,,,,,,Flu,,,,,Discharged,3200,Dr. Irene
+P1167,72,Male,2025-03-02,Inpatient,Emergency,,,,,,Flu,,,2025-03-02,2025-03-06,Referred,5300,Dr. Margaret
+P1168,18,Female,2025-01-06,Outpatient,Maternity,,,,,,Hypertension,,,,,Discharged,10000,Dr. Derry
+P1169,18,Male,2025-02-09,Outpatient,OPD,,,,,,Diarrhea,,,,,Discharged,3200,Dr. Mwakio
+P1170,8,Female,2025-02-09,Inpatient,Pediatrics,,,,,,Diarrhea,,,2025-02-09,2025-02-13,Deceased,1500,Dr. Margaret
+P1171,56,Female,2025-03-02,Outpatient,OPD,,,,,,Flu,,,,,Discharged,5900,Dr. Derry
+P1172,6,Male,2025-02-10,Outpatient,Pediatrics,,,,,,Flu,,,,,Discharged,1500,Dr. Derry
+P1173,80,Male,2025-01-26,Inpatient,Emergency,,,,,,Diarrhea,,,2025-01-26,2025-01-30,Deceased,5300,Dr. Mwakio
+P1174,39,Female,2025-02-24,Outpatient,Maternity,,,,,,Malaria,,,,,Deceased,10000,Dr. Irene
+P1175,13,Female,2025-01-11,Outpatient,Pediatrics,,,,,,Pneumonia,,,,,Deceased,1500,Dr. Derry
+P1176,14,Female,2025-01-17,Inpatient,Pediatrics,,,,,,Diarrhea,,,2025-01-17,2025-01-21,Discharged,1500,Dr. Fabian
+P1177,29,Female,2025-03-02,Outpatient,Maternity,,,,,,Pneumonia,,,,,Deceased,10000,Dr. Margaret
+P1178,1,Male,2025-01-24,Outpatient,Pediatrics,,,,,,Hypertension,,,,,Deceased,1500,Dr. Irene
+P1179,72,Male,2025-01-24,Inpatient,Emergency,,,,,,Diarrhea,,,2025-01-24,2025-01-28,Discharged,5300,Dr. Derry
+P1180,74,Male,2025-02-17,Inpatient,Emergency,,,,,,Malaria,,,2025-02-17,2025-02-21,Discharged,5300,Dr. Fabian
+P1181,80,Female,2025-01-12,Inpatient,OPD,,,,,,Malaria,,,2025-01-12,2025-01-16,Discharged,5900,Dr. Margaret
+P1182,31,Male,2025-01-26,Inpatient,OPD,,,,,,Diarrhea,,,2025-01-26,2025-01-30,Discharged,3200,Dr. Margaret
+P1183,65,Male,2025-01-19,Outpatient,Emergency,,,,,,Malaria,,,,,Discharged,5300,Dr. Fabian
+P1184,45,Female,2025-01-05,Inpatient,OPD,,,,,,Pneumonia,,,2025-01-05,2025-01-09,Deceased,5900,Dr. Mwakio
+P1185,6,Male,2025-01-11,Inpatient,Pediatrics,,,,,,Malaria,,,2025-01-11,2025-01-15,Referred,1500,Dr. Mwakio
+P1186,77,Female,2025-02-23,Outpatient,OPD,,,,,,Hypertension,,,,,Ongoing,5900,Dr. Derry
+P1187,50,Female,2025-02-23,Inpatient,OPD,,,,,,Diarrhea,,,2025-02-23,2025-02-27,Discharged,5900,Dr. Irene
+P1188,55,Male,2025-01-15,Inpatient,Emergency,,,,,,Flu,,,2025-01-15,2025-01-19,Discharged,5300,Dr. Derry
+P1189,53,Male,2025-01-20,Outpatient,Emergency,,,,,,Malaria,,,,,Discharged,5300,Dr. Irene
+P1190,18,Female,2025-01-27,Outpatient,Maternity,,,,,,Hypertension,,,,,Referred,10000,Dr. Margaret
+P1191,44,Female,2025-01-09,Outpatient,OPD,,,,,,Flu,,,,,Discharged,5900,Dr. Fabian
+P1192,25,Male,2025-01-23,Outpatient,OPD,,,,,,Malaria,,,,,Referred,3200,Dr. Fabian
+P1193,22,Male,2025-02-10,Outpatient,OPD,,,,,,Flu,,,,,Discharged,3200,Dr. Mwakio
+P1194,73,Male,2025-01-02,Inpatient,Emergency,,,,,,Malaria,,,2025-01-02,2025-01-06,Discharged,5300,Dr. Margaret
+P1195,46,Female,2025-02-26,Outpatient,OPD,,,,,,Hypertension,,,,,Ongoing,5900,Dr. Margaret
+P1196,21,Male,2025-01-11,Inpatient,OPD,,,,,,Malaria,,,2025-01-11,2025-01-15,Deceased,3200,Dr. Mwakio
+P1197,36,Male,2025-01-10,Inpatient,OPD,,,,,,Flu,,,2025-01-10,2025-01-14,Discharged,3200,Dr. Irene
+P1198,4,Male,2025-01-26,Outpatient,Pediatrics,,,,,,Flu,,,,,Discharged,1500,Dr. Irene
+P1199,14,Female,2025-02-01,Inpatient,Emergency,,,,,,Diarrhea,,,2025-02-01,2025-02-05,Discharged,1500,Dr. Irene
+P1202,32,Female,2024-09-30,Outpatient,Maternity,,,,,,Diarrhea,,,,,Discharged,5717,Dr. Mwangi
+P1203,64,Female,2024-08-05,Inpatient,OPD,,,,,,Diabetes,,,2024-08-05,2024-08-09,Referred,3172,Dr. Kimani
+P1204,75,Male,2024-08-01,Outpatient,Emergency,,,,,,COVID-19,,,,,Referred,19674,Dr. Njeri
+P1205,32,Male,2024-11-24,Inpatient,OPD,,,,,,COVID-19,,,2024-11-24,2024-11-28,Ongoing,6854,Dr. Mwangi
+P1206,70,Male,2024-11-27,Outpatient,Emergency,,,,,,Malaria,,,,,Discharged,632,Dr. Achieng
+P1207,51,Male,2024-11-30,Outpatient,Emergency,,,,,,Asthma,,,,,Ongoing,4374,Dr. Kimani
+P1208,16,Male,2024-09-05,Inpatient,OPD,,,,,,Pneumonia,,,2024-09-05,2024-09-09,Deceased,13706,Dr. Njeri
+P1209,31,Female,2024-10-16,Inpatient,Maternity,,,,,,Asthma,,,2024-10-16,2024-10-20,Discharged,5065,Dr. Achieng
+P1210,68,Male,2024-10-28,Outpatient,Emergency,,,,,,Diabetes,,,,,Ongoing,4936,Dr. Kimani
+P1211,35,Female,2024-07-21,Inpatient,Maternity,,,,,,Asthma,,,2024-07-21,2024-07-25,Referred,7353,Dr. Otieno
+P1212,61,Female,2024-11-11,Inpatient,OPD,,,,,,Malaria,,,2024-11-11,2024-11-15,Discharged,10072,Dr. Mwangi
+P1213,7,Female,2024-11-02,Inpatient,Pediatrics,,,,,,Skin Infection,,,2024-11-02,2024-11-06,Discharged,15949,Dr. Kimani
+P1214,55,Female,2024-11-28,Outpatient,OPD,,,,,,Diarrhea,,,,,Referred,12966,Dr. Kimani
+P1215,57,Male,2024-10-11,Outpatient,Emergency,,,,,,Diabetes,,,,,Referred,15613,Dr. Njeri
+P1216,55,Male,2024-07-03,Inpatient,Emergency,,,,,,Tuberculosis,,,2024-07-03,2024-07-07,Discharged,5036,Dr. Otieno
+P1217,59,Female,2024-11-11,Inpatient,OPD,,,,,,Skin Infection,,,2024-11-11,2024-11-15,Discharged,7949,Dr. Njeri
+P1218,12,Female,2024-09-22,Inpatient,Pediatrics,,,,,,Hypertension,,,2024-09-22,2024-09-26,Referred,14372,Dr. Achieng
+P1219,45,Male,2024-07-13,Outpatient,Emergency,,,,,,COVID-19,,,,,Ongoing,13690,Dr. Mwangi
+P1220,43,Female,2024-12-18,Outpatient,OPD,,,,,,Flu,,,,,Deceased,14714,Dr. Njeri
+P1221,21,Female,2024-08-29,Outpatient,Maternity,,,,,,Diarrhea,,,,,Discharged,10558,Dr. Kimani
+P1222,79,Male,2024-08-15,Inpatient,Emergency,,,,,,Diabetes,,,2024-08-15,2024-08-19,Referred,2738,Dr. Achieng
+P1223,4,Male,2024-12-17,Outpatient,Pediatrics,,,,,,Pneumonia,,,,,Referred,6017,Dr. Mwangi
+P1224,74,Male,2024-11-26,Outpatient,Emergency,,,,,,Diarrhea,,,,,Ongoing,10855,Dr. Mwangi
+P1225,4,Male,2024-11-27,Outpatient,Pediatrics,,,,,,Asthma,,,,,Ongoing,8227,Dr. Achieng
+P1226,36,Male,2024-07-09,Inpatient,OPD,,,,,,Skin Infection,,,2024-07-09,2024-07-13,Ongoing,15285,Dr. Achieng
+P1227,37,Female,2024-11-15,Inpatient,Maternity,,,,,,Malaria,,,2024-11-15,2024-11-19,Discharged,6232,Dr. Otieno
+P1228,49,Male,2024-10-17,Outpatient,Emergency,,,,,,Hypertension,,,,,Deceased,4255,Dr. Njeri
+P1229,26,Male,2024-12-01,Outpatient,OPD,,,,,,COVID-19,,,,,Deceased,12825,Dr. Kimani
+P1230,60,Female,2024-07-14,Inpatient,OPD,,,,,,Skin Infection,,,2024-07-14,2024-07-18,Discharged,18688,Dr. Mwangi
+P1231,48,Male,2024-08-07,Outpatient,Emergency,,,,,,Pneumonia,,,,,Deceased,11589,Dr. Njeri
+P1232,32,Male,2024-09-11,Outpatient,OPD,,,,,,Asthma,,,,,Ongoing,1215,Dr. Njeri
+P1233,62,Male,2024-12-15,Outpatient,Emergency,,,,,,Asthma,,,,,Ongoing,3755,Dr. Mwangi
+P1234,70,Female,2024-10-15,Outpatient,OPD,,,,,,Skin Infection,,,,,Ongoing,17956,Dr. Mwangi
+P1235,64,Female,2024-07-14,Outpatient,OPD,,,,,,Malaria,,,,,Referred,4503,Dr. Otieno
+P1236,27,Male,2024-08-12,Outpatient,OPD,,,,,,Diabetes,,,,,Ongoing,10001,Dr. Otieno
+P1237,57,Female,2024-08-04,Inpatient,OPD,,,,,,Skin Infection,,,2024-08-04,2024-08-08,Ongoing,14295,Dr. Njeri
+P1238,62,Male,2024-10-07,Outpatient,Emergency,,,,,,Tuberculosis,,,,,Ongoing,19333,Dr. Kimani
+P1239,69,Male,2024-12-01,Outpatient,Emergency,,,,,,Diabetes,,,,,Discharged,15290,Dr. Otieno
+P1240,57,Female,2024-07-03,Inpatient,OPD,,,,,,Flu,,,2024-07-03,2024-07-07,Referred,11573,Dr. Otieno
+P1241,12,Male,2024-10-08,Inpatient,Pediatrics,,,,,,Malaria,,,2024-10-08,2024-10-12,Deceased,15400,Dr. Mwangi
+P1242,1,Female,2024-09-05,Outpatient,Pediatrics,,,,,,Asthma,,,,,Deceased,11672,Dr. Kimani
+P1243,4,Male,2024-11-06,Outpatient,Pediatrics,,,,,,Diarrhea,,,,,Referred,6453,Dr. Njeri
+P1244,54,Female,2024-09-03,Inpatient,OPD,,,,,,Diarrhea,,,2024-09-03,2024-09-07,Referred,6712,Dr. Otieno
+P1245,34,Female,2024-07-25,Outpatient,Maternity,,,,,,Diabetes,,,,,Discharged,8469,Dr. Achieng
+P1246,45,Female,2024-11-15,Outpatient,OPD,,,,,,Malaria,,,,,Deceased,2353,Dr. Njeri
+P1247,46,Female,2024-07-04,Outpatient,OPD,,,,,,Tuberculosis,,,,,Ongoing,19465,Dr. Achieng
+P1248,66,Male,2024-10-26,Outpatient,Emergency,,,,,,Diabetes,,,,,Ongoing,3747,Dr. Njeri
+P1249,1,Male,2024-10-24,Inpatient,Pediatrics,,,,,,Malaria,,,2024-10-24,2024-10-28,Discharged,10836,Dr. Kimani
+P1250,66,Female,2024-12-30,Outpatient,OPD,,,,,,Diarrhea,,,,,Discharged,1526,Dr. Njeri
+P1251,48,Male,2024-12-25,Outpatient,Emergency,,,,,,Hypertension,,,,,Referred,6709,Dr. Achieng
+P1252,26,Female,2024-08-04,Outpatient,Maternity,,,,,,Malaria,,,,,Referred,17118,Dr. Achieng
+P1253,80,Female,2024-12-22,Inpatient,OPD,,,,,,Diabetes,,,2024-12-22,2024-12-26,Discharged,15797,Dr. Mwangi
+P1254,81,Female,2024-11-15,Outpatient,OPD,,,,,,Asthma,,,,,Ongoing,2033,Dr. Otieno
+P1255,26,Female,2024-10-15,Inpatient,Maternity,,,,,,Tuberculosis,,,2024-10-15,2024-10-19,Discharged,11772,Dr. Otieno
+P1256,31,Female,2024-07-25,Inpatient,Maternity,,,,,,Malaria,,,2024-07-25,2024-07-29,Discharged,13212,Dr. Kimani
+P1257,80,Female,2024-10-26,Inpatient,OPD,,,,,,COVID-19,,,2024-10-26,2024-10-30,Referred,5579,Dr. Njeri
+P1258,72,Male,2024-12-27,Inpatient,Emergency,,,,,,Asthma,,,2024-12-27,2024-12-31,Discharged,11575,Dr. Mwangi
+P1259,49,Female,2024-11-29,Outpatient,OPD,,,,,,Skin Infection,,,,,Discharged,3246,Dr. Njeri
+P1260,82,Female,2024-09-24,Outpatient,OPD,,,,,,COVID-19,,,,,Discharged,1311,Dr. Achieng
+P1261,52,Male,2024-09-10,Inpatient,Emergency,,,,,,Skin Infection,,,2024-09-10,2024-09-14,Ongoing,3466,Dr. Mwangi
+P1262,7,Male,2024-08-30,Inpatient,Pediatrics,,,,,,Malaria,,,2024-08-30,2024-09-03,Discharged,3905,Dr. Otieno
+P1263,59,Female,2024-11-12,Inpatient,OPD,,,,,,Asthma,,,2024-11-12,2024-11-16,Referred,3079,Dr. Otieno
+P1264,4,Female,2024-11-01,Inpatient,Pediatrics,,,,,,Asthma,,,2024-11-01,2024-11-05,Ongoing,14751,Dr. Kimani
+P1265,18,Male,2024-12-15,Outpatient,OPD,,,,,,COVID-19,,,,,Ongoing,2743,Dr. Otieno
+P1266,54,Male,2024-12-30,Outpatient,Emergency,,,,,,Skin Infection,,,,,Discharged,15011,Dr. Achieng
+P1267,5,Male,2024-08-11,Inpatient,Pediatrics,,,,,,Skin Infection,,,2024-08-11,2024-08-15,Referred,10617,Dr. Njeri
+P1268,32,Male,2024-09-01,Outpatient,OPD,,,,,,Diarrhea,,,,,Referred,5527,Dr. Njeri
+P1269,71,Female,2024-10-20,Outpatient,OPD,,,,,,Flu,,,,,Discharged,6297,Dr. Mwangi
+P1270,68,Male,2024-11-18,Inpatient,Emergency,,,,,,Malaria,,,2024-11-18,2024-11-22,Discharged,14840,Dr. Achieng
+P1271,23,Male,2024-10-02,Outpatient,OPD,,,,,,COVID-19,,,,,Discharged,4337,Dr. Otieno
+P1272,3,Male,2024-11-07,Outpatient,Pediatrics,,,,,,Diarrhea,,,,,Referred,4026,Dr. Otieno
+P1273,5,Female,2024-07-20,Outpatient,Pediatrics,,,,,,Diabetes,,,,,Discharged,9212,Dr. Kimani
+P1274,46,Male,2024-08-26,Outpatient,Emergency,,,,,,Malaria,,,,,Discharged,4424,Dr. Kimani
+P1275,54,Male,2024-10-16,Outpatient,Emergency,,,,,,Skin Infection,,,,,Ongoing,2877,Dr. Otieno
+P1276,34,Male,2024-11-14,Outpatient,OPD,,,,,,Flu,,,,,Ongoing,9041,Dr. Achieng
+P1277,53,Female,2024-09-21,Outpatient,OPD,,,,,,Hypertension,,,,,Discharged,11153,Dr. Achieng
+P1278,62,Male,2024-12-21,Outpatient,Emergency,,,,,,Diarrhea,,,,,Discharged,10389,Dr. Mwangi
+P1279,77,Male,2024-11-09,Inpatient,Emergency,,,,,,Pneumonia,,,2024-11-09,2024-11-13,Deceased,8717,Dr. Otieno
+P1280,7,Female,2024-11-26,Outpatient,Pediatrics,,,,,,Diarrhea,,,,,Discharged,4335,Dr. Njeri
+P1281,31,Male,2024-11-15,Outpatient,OPD,,,,,,Skin Infection,,,,,Referred,12802,Dr. Kimani
+P1282,67,Female,2024-08-21,Outpatient,OPD,,,,,,Hypertension,,,,,Discharged,14708,Dr. Otieno
+P1283,30,Female,2024-12-29,Outpatient,Maternity,,,,,,Flu,,,,,Discharged,15472,Dr. Mwangi
+P1284,26,Male,2024-12-25,Outpatient,OPD,,,,,,Malaria,,,,,Deceased,7841,Dr. Achieng
+P1285,53,Female,2024-09-10,Inpatient,OPD,,,,,,Pneumonia,,,2024-09-10,2024-09-14,Deceased,11300,Dr. Otieno
+P1286,4,Female,2024-07-09,Inpatient,Pediatrics,,,,,,Flu,,,2024-07-09,2024-07-13,Referred,9669,Dr. Njeri
+P1287,63,Female,2024-07-27,Inpatient,OPD,,,,,,Hypertension,,,2024-07-27,2024-07-31,Ongoing,11936,Dr. Mwangi
+P1288,80,Male,2024-10-28,Inpatient,Emergency,,,,,,Pneumonia,,,2024-10-28,2024-11-01,Ongoing,16512,Dr. Kimani
+P1289,84,Male,2024-07-29,Outpatient,Emergency,,,,,,Malaria,,,,,Discharged,16004,Dr. Mwangi
+P1290,3,Male,2024-12-21,Inpatient,Pediatrics,,,,,,Tuberculosis,,,2024-12-21,2024-12-25,Discharged,797,Dr. Otieno
+P1291,38,Male,2024-12-09,Inpatient,OPD,,,,,,Hypertension,,,2024-12-09,2024-12-13,Ongoing,3653,Dr. Achieng
+P1292,23,Male,2024-09-16,Outpatient,OPD,,,,,,Asthma,,,,,Ongoing,13309,Dr. Njeri
+P1293,60,Male,2024-09-10,Outpatient,Emergency,,,,,,COVID-19,,,,,Deceased,10723,Dr. Otieno
+P1294,38,Male,2024-09-06,Outpatient,OPD,,,,,,Diarrhea,,,,,Ongoing,12612,Dr. Achieng
+P1295,73,Male,2024-07-25,Inpatient,Emergency,,,,,,Tuberculosis,,,2024-07-25,2024-07-29,Ongoing,538,Dr. Otieno
+P1296,39,Male,2024-10-17,Outpatient,OPD,,,,,,COVID-19,,,,,Discharged,14952,Dr. Achieng
+P1297,31,Female,2024-07-01,Outpatient,Maternity,,,,,,Diarrhea,,,,,Deceased,3692,Dr. Njeri
+P1298,47,Female,2024-08-09,Outpatient,OPD,,,,,,Skin Infection,,,,,Ongoing,12012,Dr. Njeri
+P1299,83,Male,2024-12-21,Outpatient,Emergency,,,,,,COVID-19,,,,,Deceased,10059,Dr. Njeri
+P1300,26,Male,2024-08-14,Inpatient,OPD,,,,,,Skin Infection,,,2024-08-14,2024-08-18,Ongoing,2531,Dr. Kimani
+P1301,10,Female,2024-08-23,Outpatient,Pediatrics,,,,,,COVID-19,,,,,Deceased,17960,Dr. Kimani
+P1302,38,Male,2024-11-22,Outpatient,OPD,,,,,,Hypertension,,,,,Referred,10386,Dr. Otieno
+P1303,63,Female,2024-11-27,Inpatient,OPD,,,,,,Tuberculosis,,,2024-11-27,2024-12-01,Referred,19868,Dr. Otieno
+P1304,51,Male,2024-09-07,Outpatient,Emergency,,,,,,Tuberculosis,,,,,Deceased,4345,Dr. Njeri
+P1305,47,Male,2024-07-29,Inpatient,Emergency,,,,,,Malaria,,,2024-07-29,2024-08-02,Discharged,13072,Dr. Achieng
+P1306,80,Male,2024-09-07,Inpatient,Emergency,,,,,,Flu,,,2024-09-07,2024-09-11,Deceased,2814,Dr. Mwangi
+P1307,17,Male,2024-07-20,Inpatient,OPD,,,,,,Hypertension,,,2024-07-20,2024-07-24,Ongoing,14685,Dr. Mwangi
+P1308,26,Female,2024-08-25,Inpatient,Maternity,,,,,,Flu,,,2024-08-25,2024-08-29,Discharged,17760,Dr. Mwangi
+P1309,30,Female,2024-10-21,Inpatient,Maternity,,,,,,Malaria,,,2024-10-21,2024-10-25,Discharged,16499,Dr. Njeri
+P1310,10,Female,2024-08-04,Inpatient,Pediatrics,,,,,,Asthma,,,2024-08-04,2024-08-08,Ongoing,5222,Dr. Otieno
+P1311,38,Male,2024-07-21,Outpatient,OPD,,,,,,Hypertension,,,,,Discharged,2801,Dr. Achieng
+P1312,41,Male,2024-11-25,Inpatient,Emergency,,,,,,Pneumonia,,,2024-11-25,2024-11-29,Discharged,8328,Dr. Otieno
+P1313,25,Female,2024-07-18,Outpatient,Maternity,,,,,,Diarrhea,,,,,Deceased,10747,Dr. Otieno
+P1314,35,Female,2024-07-18,Inpatient,Maternity,,,,,,COVID-19,,,2024-07-18,2024-07-22,Ongoing,6931,Dr. Mwangi
+P1315,74,Male,2024-08-17,Inpatient,Emergency,,,,,,Malaria,,,2024-08-17,2024-08-21,Referred,5582,Dr. Njeri
+P1316,80,Female,2024-12-31,Inpatient,OPD,,,,,,Diabetes,,,2024-12-31,2025-01-04,Discharged,2904,Dr. Mwangi
+P1317,19,Male,2024-10-26,Inpatient,OPD,,,,,,Malaria,,,2024-10-26,2024-10-30,Discharged,807,Dr. Mwangi
+P1318,9,Male,2024-08-15,Outpatient,Pediatrics,,,,,,Pneumonia,,,,,Ongoing,1357,Dr. Kimani
+P1319,50,Female,2024-08-28,Inpatient,OPD,,,,,,Flu,,,2024-08-28,2024-09-01,Referred,6739,Dr. Kimani
+P1320,3,Female,2024-12-20,Outpatient,Pediatrics,,,,,,Malaria,,,,,Discharged,642,Dr. Njeri
+P1321,41,Male,2024-10-27,Outpatient,Emergency,,,,,,Diarrhea,,,,,Ongoing,16249,Dr. Otieno
+P1322,54,Female,2024-08-24,Inpatient,OPD,,,,,,Pneumonia,,,2024-08-24,2024-08-28,Discharged,17739,Dr. Kimani
+P1323,47,Male,2024-11-30,Inpatient,Emergency,,,,,,Diabetes,,,2024-11-30,2024-12-04,Referred,13751,Dr. Otieno
+P1324,51,Male,2024-12-21,Inpatient,Emergency,,,,,,Diabetes,,,2024-12-21,2024-12-25,Discharged,5035,Dr. Mwangi
+P1325,33,Male,2024-07-16,Outpatient,OPD,,,,,,Diabetes,,,,,Discharged,5307,Dr. Mwangi
+P1326,75,Female,2024-08-25,Inpatient,OPD,,,,,,Asthma,,,2024-08-25,2024-08-29,Discharged,16552,Dr. Kimani
+P1327,45,Female,2024-11-01,Outpatient,OPD,,,,,,Asthma,,,,,Referred,2064,Dr. Kimani
+P1328,18,Female,2024-07-11,Inpatient,Maternity,,,,,,Asthma,,,2024-07-11,2024-07-15,Discharged,15101,Dr. Njeri
+P1329,37,Male,2024-07-10,Outpatient,OPD,,,,,,COVID-19,,,,,Discharged,13333,Dr. Njeri
+P1330,83,Male,2024-12-19,Inpatient,Emergency,,,,,,Diarrhea,,,2024-12-19,2024-12-23,Discharged,509,Dr. Njeri
+P1331,85,Male,2024-11-22,Outpatient,Emergency,,,,,,Asthma,,,,,Discharged,5926,Dr. Kimani
+P1332,35,Male,2024-10-26,Inpatient,OPD,,,,,,Malaria,,,2024-10-26,2024-10-30,Discharged,1166,Dr. Achieng
+P1333,51,Male,2024-10-03,Outpatient,Emergency,,,,,,Diabetes,,,,,Deceased,15708,Dr. Njeri
+P1334,60,Female,2024-09-20,Inpatient,OPD,,,,,,Skin Infection,,,2024-09-20,2024-09-24,Referred,14280,Dr. Achieng
+P1335,16,Female,2024-07-01,Inpatient,Maternity,,,,,,Diabetes,,,2024-07-01,2024-07-05,Discharged,3007,Dr. Kimani
+P1336,59,Male,2024-10-10,Outpatient,Emergency,,,,,,Diabetes,,,,,Discharged,9668,Dr. Kimani
+P1337,33,Male,2024-10-09,Outpatient,OPD,,,,,,Diabetes,,,,,Discharged,7448,Dr. Otieno
+P1338,73,Female,2024-07-25,Outpatient,OPD,,,,,,Flu,,,,,Discharged,17299,Dr. Kimani
+P1339,3,Female,2024-12-02,Outpatient,Pediatrics,,,,,,Skin Infection,,,,,Discharged,877,Dr. Achieng
+P1340,31,Male,2024-09-09,Inpatient,OPD,,,,,,Flu,,,2024-09-09,2024-09-13,Discharged,6229,Dr. Achieng
+P1341,8,Male,2024-07-11,Inpatient,Pediatrics,,,,,,Tuberculosis,,,2024-07-11,2024-07-15,Referred,16319,Dr. Kimani
+P1342,8,Male,2024-10-02,Outpatient,Pediatrics,,,,,,Asthma,,,,,Referred,8314,Dr. Otieno
+P1343,70,Male,2024-12-27,Inpatient,Emergency,,,,,,COVID-19,,,2024-12-27,2024-12-31,Referred,13662,Dr. Achieng
+P1344,26,Male,2024-08-16,Outpatient,OPD,,,,,,Malaria,,,,,Referred,16073,Dr. Kimani
+P1345,22,Male,2024-08-10,Outpatient,OPD,,,,,,Diarrhea,,,,,Discharged,13924,Dr. Kimani
+P1346,78,Male,2024-10-16,Outpatient,Emergency,,,,,,Malaria,,,,,Discharged,15919,Dr. Otieno
+P1347,76,Male,2024-08-23,Inpatient,Emergency,,,,,,Asthma,,,2024-08-23,2024-08-27,Referred,8204,Dr. Kimani
+P1348,18,Female,2024-12-03,Outpatient,Maternity,,,,,,Diarrhea,,,,,Discharged,3865,Dr. Kimani
+P1349,79,Female,2024-10-27,Inpatient,OPD,,,,,,Tuberculosis,,,2024-10-27,2024-10-31,Deceased,519,Dr. Njeri
+P1350,75,Female,2024-07-26,Inpatient,OPD,,,,,,Tuberculosis,,,2024-07-26,2024-07-30,Referred,12191,Dr. Achieng
+P1351,32,Male,2024-12-24,Outpatient,OPD,,,,,,COVID-19,,,,,Discharged,19429,Dr. Njeri
+P1352,30,Female,2024-08-05,Outpatient,Maternity,,,,,,Skin Infection,,,,,Referred,4557,Dr. Njeri
+P1353,6,Male,2024-10-04,Outpatient,Pediatrics,,,,,,Pneumonia,,,,,Referred,13151,Dr. Achieng
+P1354,52,Male,2024-07-20,Outpatient,Emergency,,,,,,Diarrhea,,,,,Discharged,9065,Dr. Achieng
+P1355,7,Male,2024-12-22,Inpatient,Pediatrics,,,,,,Skin Infection,,,2024-12-22,2024-12-26,Discharged,18731,Dr. Achieng
+P1356,19,Male,2024-12-20,Inpatient,OPD,,,,,,Diarrhea,,,2024-12-20,2024-12-24,Discharged,10528,Dr. Njeri
+P1357,42,Male,2024-07-22,Outpatient,Emergency,,,,,,Skin Infection,,,,,Referred,3376,Dr. Mwangi
+P1358,8,Male,2024-10-22,Inpatient,Pediatrics,,,,,,Diarrhea,,,2024-10-22,2024-10-26,Discharged,14372,Dr. Kimani
+P1359,44,Male,2024-09-01,Inpatient,Emergency,,,,,,Tuberculosis,,,2024-09-01,2024-09-05,Discharged,2386,Dr. Otieno
+P1360,29,Female,2024-07-09,Outpatient,Maternity,,,,,,Pneumonia,,,,,Referred,5099,Dr. Njeri
+P1361,12,Female,2024-12-19,Outpatient,Pediatrics,,,,,,Tuberculosis,,,,,Discharged,9763,Dr. Achieng
+P1362,13,Male,2024-10-14,Outpatient,Pediatrics,,,,,,COVID-19,,,,,Discharged,11155,Dr. Njeri
+P1363,71,Female,2024-07-01,Inpatient,OPD,,,,,,Hypertension,,,2024-07-01,2024-07-05,Referred,1401,Dr. Mwangi
+P1364,18,Female,2024-10-22,Inpatient,Maternity,,,,,,COVID-19,,,2024-10-22,2024-10-26,Deceased,11073,Dr. Mwangi
+P1365,42,Female,2024-09-22,Inpatient,OPD,,,,,,Skin Infection,,,2024-09-22,2024-09-26,Discharged,10920,Dr. Mwangi
+P1366,28,Male,2024-08-07,Inpatient,OPD,,,,,,Pneumonia,,,2024-08-07,2024-08-11,Referred,13011,Dr. Mwangi
+P1367,59,Male,2024-09-29,Inpatient,Emergency,,,,,,Pneumonia,,,2024-09-29,2024-10-03,Discharged,5951,Dr. Njeri
+P1368,61,Male,2024-10-13,Inpatient,Emergency,,,,,,Skin Infection,,,2024-10-13,2024-10-17,Discharged,4881,Dr. Achieng
+P1369,49,Female,2024-09-03,Inpatient,OPD,,,,,,Pneumonia,,,2024-09-03,2024-09-07,Referred,17821,Dr. Njeri
+P1370,55,Female,2024-09-18,Outpatient,OPD,,,,,,Malaria,,,,,Discharged,1082,Dr. Mwangi
+P1371,79,Male,2024-10-22,Inpatient,Emergency,,,,,,Diarrhea,,,2024-10-22,2024-10-26,Discharged,6101,Dr. Achieng
+P1372,63,Male,2024-12-14,Outpatient,Emergency,,,,,,Asthma,,,,,Deceased,19186,Dr. Achieng
+P1373,81,Female,2024-07-27,Outpatient,OPD,,,,,,Asthma,,,,,Discharged,19274,Dr. Achieng
+P1374,22,Female,2024-09-20,Inpatient,Maternity,,,,,,Tuberculosis,,,2024-09-20,2024-09-24,Discharged,4296,Dr. Njeri
+P1375,15,Male,2024-09-25,Inpatient,OPD,,,,,,Malaria,,,2024-09-25,2024-09-29,Deceased,12877,Dr. Mwangi
+P1376,18,Female,2024-12-25,Outpatient,Maternity,,,,,,Asthma,,,,,Referred,11312,Dr. Njeri
+P1377,37,Male,2024-09-17,Outpatient,OPD,,,,,,Skin Infection,,,,,Deceased,10122,Dr. Mwangi
+P1378,36,Female,2024-11-27,Outpatient,Maternity,,,,,,COVID-19,,,,,Discharged,16010,Dr. Mwangi
+P1379,54,Male,2024-12-18,Outpatient,Emergency,,,,,,Skin Infection,,,,,Deceased,17941,Dr. Njeri
+P1380,19,Male,2024-07-13,Outpatient,OPD,,,,,,Asthma,,,,,Referred,3769,Dr. Achieng
+P1381,9,Female,2024-09-20,Inpatient,Pediatrics,,,,,,Asthma,,,2024-09-20,2024-09-24,Discharged,10666,Dr. Kimani
+P1382,35,Female,2024-10-07,Inpatient,Maternity,,,,,,Hypertension,,,2024-10-07,2024-10-11,Discharged,2019,Dr. Njeri
+P1383,11,Female,2024-09-14,Inpatient,Pediatrics,,,,,,Pneumonia,,,2024-09-14,2024-09-18,Discharged,13825,Dr. Otieno
+P1384,49,Male,2024-10-15,Inpatient,Emergency,,,,,,Diarrhea,,,2024-10-15,2024-10-19,Discharged,10947,Dr. Mwangi
+P1385,82,Male,2024-07-26,Outpatient,Emergency,,,,,,Malaria,,,,,Discharged,5059,Dr. Achieng
+P1386,76,Male,2024-10-08,Inpatient,Emergency,,,,,,COVID-19,,,2024-10-08,2024-10-12,Deceased,5013,Dr. Otieno
+P1387,60,Male,2024-10-31,Outpatient,Emergency,,,,,,Asthma,,,,,Referred,14983,Dr. Otieno
+P1388,53,Male,2024-09-08,Inpatient,Emergency,,,,,,Tuberculosis,,,2024-09-08,2024-09-12,Ongoing,3539,Dr. Otieno
+P1389,8,Male,2024-08-10,Inpatient,Pediatrics,,,,,,Asthma,,,2024-08-10,2024-08-14,Discharged,2144,Dr. Achieng
+P1390,72,Female,2024-10-19,Inpatient,OPD,,,,,,Hypertension,,,2024-10-19,2024-10-23,Discharged,16814,Dr. Njeri
+P1391,39,Female,2024-08-22,Outpatient,Maternity,,,,,,Diarrhea,,,,,Discharged,16891,Dr. Njeri
+P1392,49,Male,2024-09-08,Inpatient,Emergency,,,,,,Flu,,,2024-09-08,2024-09-12,Referred,4022,Dr. Kimani
+P1393,32,Male,2024-11-05,Inpatient,OPD,,,,,,Hypertension,,,2024-11-05,2024-11-09,Discharged,2293,Dr. Achieng
+P1394,78,Male,2024-12-08,Inpatient,Emergency,,,,,,Asthma,,,2024-12-08,2024-12-12,Referred,11506,Dr. Mwangi
+P1395,46,Female,2024-08-11,Inpatient,OPD,,,,,,Tuberculosis,,,2024-08-11,2024-08-15,Discharged,3684,Dr. Otieno
+P1396,32,Female,2024-08-22,Outpatient,Maternity,,,,,,Tuberculosis,,,,,Discharged,14998,Dr. Mwangi
+P1397,20,Female,2024-09-25,Inpatient,Maternity,,,,,,Tuberculosis,,,2024-09-25,2024-09-29,Ongoing,12623,Dr. Achieng
+P1398,64,Male,2024-08-08,Inpatient,Emergency,,,,,,COVID-19,,,2024-08-08,2024-08-12,Deceased,5768,Dr. Kimani
+P1399,6,Female,2024-09-17,Inpatient,Pediatrics,,,,,,Tuberculosis,,,2024-09-17,2024-09-21,Discharged,1004,Dr. Njeri
+P1400,77,Male,2024-07-09,Outpatient,Emergency,,,,,,Malaria,,,,,Discharged,614,Dr. Njeri
+P1401,59,Female,2024-07-03,Outpatient,OPD,,,,,,Diabetes,,,,,Deceased,7808,Dr. Njeri
+P1402,53,Female,2024-08-20,Outpatient,OPD,,,,,,Diabetes,,,,,Discharged,11280,Dr. Achieng
+P1403,68,Male,2024-08-10,Inpatient,Emergency,,,,,,COVID-19,,,2024-08-10,2024-08-14,Discharged,6096,Dr. Kimani
+P1404,39,Female,2024-12-15,Outpatient,Maternity,,,,,,Asthma,,,,,Referred,17025,Dr. Kimani
+P1405,9,Male,2024-10-23,Inpatient,Pediatrics,,,,,,Tuberculosis,,,2024-10-23,2024-10-27,Referred,10487,Dr. Njeri
+P1406,44,Female,2024-09-14,Inpatient,OPD,,,,,,Malaria,,,2024-09-14,2024-09-18,Ongoing,11902,Dr. Otieno
+P1407,32,Female,2024-12-05,Outpatient,Maternity,,,,,,Diarrhea,,,,,Discharged,10562,Dr. Otieno
+P1408,54,Female,2024-07-26,Outpatient,OPD,,,,,,COVID-19,,,,,Ongoing,15278,Dr. Mwangi
+P1409,53,Male,2024-09-02,Outpatient,Emergency,,,,,,COVID-19,,,,,Deceased,3993,Dr. Kimani
+P1410,12,Male,2024-09-10,Inpatient,Pediatrics,,,,,,Diarrhea,,,2024-09-10,2024-09-14,Discharged,5446,Dr. Otieno
+P1411,5,Male,2024-09-01,Outpatient,Pediatrics,,,,,,Asthma,,,,,Ongoing,18130,Dr. Njeri
+P1412,5,Female,2024-10-25,Inpatient,Pediatrics,,,,,,Skin Infection,,,2024-10-25,2024-10-29,Referred,15826,Dr. Mwangi
+P1413,5,Male,2024-11-08,Inpatient,Pediatrics,,,,,,Flu,,,2024-11-08,2024-11-12,Discharged,16364,Dr. Otieno
+P1414,17,Male,2024-10-28,Outpatient,OPD,,,,,,Asthma,,,,,Discharged,6204,Dr. Kimani
+P1415,26,Male,2024-10-25,Inpatient,OPD,,,,,,Diarrhea,,,2024-10-25,2024-10-29,Referred,6116,Dr. Njeri
+P1416,46,Female,2024-11-13,Outpatient,OPD,,,,,,Diarrhea,,,,,Referred,16827,Dr. Mwangi
+P1417,83,Female,2024-09-21,Outpatient,OPD,,,,,,Diabetes,,,,,Deceased,10943,Dr. Kimani
+P1418,62,Female,2024-09-26,Outpatient,OPD,,,,,,Flu,,,,,Deceased,16922,Dr. Otieno
+P1419,46,Female,2024-09-09,Outpatient,OPD,,,,,,COVID-19,,,,,Referred,10852,Dr. Njeri
+P1420,47,Female,2024-12-12,Inpatient,OPD,,,,,,Skin Infection,,,2024-12-12,2024-12-16,Ongoing,2180,Dr. Otieno
+P1421,34,Male,2024-12-03,Inpatient,OPD,,,,,,Pneumonia,,,2024-12-03,2024-12-07,Deceased,7717,Dr. Otieno
+P1422,7,Male,2024-12-05,Outpatient,Pediatrics,,,,,,Hypertension,,,,,Discharged,1673,Dr. Mwangi
+P1423,26,Male,2024-07-07,Outpatient,OPD,,,,,,Pneumonia,,,,,Referred,13209,Dr. Kimani
+P1424,66,Male,2024-12-09,Outpatient,Emergency,,,,,,Malaria,,,,,Referred,19132,Dr. Achieng
+P1425,35,Female,2024-07-20,Outpatient,Maternity,,,,,,Diabetes,,,,,Ongoing,1450,Dr. Achieng
+P1426,60,Female,2024-11-05,Inpatient,OPD,,,,,,Flu,,,2024-11-05,2024-11-09,Ongoing,8410,Dr. Njeri
+P1427,2,Male,2024-10-28,Outpatient,Pediatrics,,,,,,Asthma,,,,,Ongoing,1309,Dr. Njeri
+P1428,33,Female,2024-11-28,Outpatient,Maternity,,,,,,Tuberculosis,,,,,Discharged,7358,Dr. Achieng
+P1429,66,Female,2024-10-24,Outpatient,OPD,,,,,,Diarrhea,,,,,Deceased,15920,Dr. Njeri
+P1430,25,Male,2024-10-07,Outpatient,OPD,,,,,,Skin Infection,,,,,Referred,11718,Dr. Mwangi
+P1431,84,Male,2024-09-18,Outpatient,Emergency,,,,,,Diabetes,,,,,Referred,19268,Dr. Achieng
+P1432,15,Female,2024-12-25,Inpatient,Maternity,,,,,,Hypertension,,,2024-12-25,2024-12-29,Deceased,2466,Dr. Achieng
+P1433,41,Female,2024-12-18,Inpatient,OPD,,,,,,Asthma,,,2024-12-18,2024-12-22,Ongoing,11703,Dr. Otieno
+P1434,27,Male,2024-08-29,Outpatient,OPD,,,,,,COVID-19,,,,,Ongoing,2598,Dr. Achieng
+P1435,8,Male,2024-09-02,Outpatient,Pediatrics,,,,,,Hypertension,,,,,Ongoing,4839,Dr. Njeri
+P1436,55,Female,2024-10-16,Outpatient,OPD,,,,,,Flu,,,,,Referred,10721,Dr. Otieno
+P1437,52,Male,2024-08-11,Inpatient,Emergency,,,,,,Skin Infection,,,2024-08-11,2024-08-15,Ongoing,6368,Dr. Kimani
+P1438,80,Female,2024-10-03,Outpatient,OPD,,,,,,Hypertension,,,,,Ongoing,9284,Dr. Kimani
+P1439,2,Female,2024-12-10,Outpatient,Pediatrics,,,,,,Tuberculosis,,,,,Ongoing,6479,Dr. Kimani
+P1440,74,Male,2024-12-27,Outpatient,Emergency,,,,,,Malaria,,,,,Discharged,6112,Dr. Njeri
+P1441,26,Female,2024-08-04,Inpatient,Maternity,,,,,,COVID-19,,,2024-08-04,2024-08-08,Referred,4566,Dr. Otieno
+P1442,11,Female,2024-09-28,Inpatient,Pediatrics,,,,,,Tuberculosis,,,2024-09-28,2024-10-02,Discharged,5328,Dr. Njeri
+P1443,63,Female,2024-09-29,Inpatient,OPD,,,,,,Flu,,,2024-09-29,2024-10-03,Discharged,11318,Dr. Kimani
+P1444,38,Female,2024-10-19,Outpatient,Maternity,,,,,,COVID-19,,,,,Referred,12620,Dr. Achieng
+P1445,58,Male,2024-07-16,Outpatient,Emergency,,,,,,Malaria,,,,,Referred,13811,Dr. Njeri
+P1446,3,Male,2024-10-18,Inpatient,Pediatrics,,,,,,Diarrhea,,,2024-10-18,2024-10-22,Discharged,12776,Dr. Otieno
+P1447,7,Male,2024-10-25,Outpatient,Pediatrics,,,,,,Malaria,,,,,Deceased,6698,Dr. Njeri
+P1448,15,Female,2024-10-22,Outpatient,Maternity,,,,,,Tuberculosis,,,,,Ongoing,8684,Dr. Mwangi
+P1449,9,Male,2024-07-07,Outpatient,Pediatrics,,,,,,Hypertension,,,,,Ongoing,6240,Dr. Kimani
+P1450,33,Male,2024-07-08,Inpatient,OPD,,,,,,Flu,,,2024-07-08,2024-07-12,Discharged,18453,Dr. Njeri
+P1451,62,Female,2024-07-14,Inpatient,OPD,,,,,,Skin Infection,,,2024-07-14,2024-07-18,Discharged,10769,Dr. Achieng
+P1452,46,Female,2024-11-10,Inpatient,OPD,,,,,,Diarrhea,,,2024-11-10,2024-11-14,Referred,6675,Dr. Otieno
+P1453,82,Male,2024-11-08,Outpatient,Emergency,,,,,,Flu,,,,,Referred,5813,Dr. Njeri
+P1454,39,Female,2024-07-14,Outpatient,Maternity,,,,,,Tuberculosis,,,,,Discharged,12321,Dr. Njeri
+P1455,12,Female,2024-12-28,Outpatient,Pediatrics,,,,,,COVID-19,,,,,Ongoing,3303,Dr. Mwangi
+P1456,33,Male,2024-11-24,Outpatient,OPD,,,,,,Malaria,,,,,Discharged,9552,Dr. Mwangi
+P1457,26,Male,2024-09-09,Inpatient,OPD,,,,,,Diabetes,,,2024-09-09,2024-09-13,Discharged,8644,Dr. Otieno
+P1458,85,Female,2024-12-12,Outpatient,OPD,,,,,,Diabetes,,,,,Referred,7320,Dr. Njeri
+P1459,76,Female,2024-07-27,Inpatient,OPD,,,,,,Pneumonia,,,2024-07-27,2024-07-31,Discharged,788,Dr. Mwangi
+P1460,77,Female,2024-11-27,Inpatient,OPD,,,,,,Pneumonia,,,2024-11-27,2024-12-01,Discharged,7285,Dr. Njeri
+P1461,65,Male,2024-09-22,Outpatient,Emergency,,,,,,COVID-19,,,,,Ongoing,12977,Dr. Njeri
+P1462,36,Female,2024-08-08,Outpatient,Maternity,,,,,,Asthma,,,,,Ongoing,7876,Dr. Achieng
+P1463,77,Female,2024-07-21,Outpatient,OPD,,,,,,Pneumonia,,,,,Discharged,10636,Dr. Otieno
+P1464,29,Female,2024-11-10,Outpatient,Maternity,,,,,,Malaria,,,,,Referred,929,Dr. Njeri
+P1465,15,Female,2024-08-24,Outpatient,Maternity,,,,,,Flu,,,,,Ongoing,4032,Dr. Mwangi
+P1466,50,Male,2024-07-12,Inpatient,Emergency,,,,,,Skin Infection,,,2024-07-12,2024-07-16,Ongoing,17281,Dr. Njeri
+P1467,9,Female,2024-11-24,Inpatient,Pediatrics,,,,,,COVID-19,,,2024-11-24,2024-11-28,Discharged,549,Dr. Otieno
+P1468,57,Female,2024-12-23,Inpatient,OPD,,,,,,Flu,,,2024-12-23,2024-12-27,Referred,5314,Dr. Kimani
+P1469,83,Female,2024-09-25,Inpatient,OPD,,,,,,Tuberculosis,,,2024-09-25,2024-09-29,Referred,14845,Dr. Kimani
+P1470,6,Female,2024-10-03,Inpatient,Pediatrics,,,,,,Tuberculosis,,,2024-10-03,2024-10-07,Discharged,15772,Dr. Otieno
+P1471,42,Female,2024-12-16,Outpatient,OPD,,,,,,Diabetes,,,,,Discharged,6240,Dr. Kimani
+P1472,85,Male,2024-10-30,Inpatient,Emergency,,,,,,Hypertension,,,2024-10-30,2024-11-03,Discharged,2937,Dr. Kimani
+P1473,16,Male,2024-12-14,Inpatient,OPD,,,,,,Malaria,,,2024-12-14,2024-12-18,Referred,2022,Dr. Otieno
+P1474,37,Male,2024-11-23,Inpatient,OPD,,,,,,Skin Infection,,,2024-11-23,2024-11-27,Discharged,8353,Dr. Achieng
+P1475,25,Female,2024-08-07,Outpatient,Maternity,,,,,,Tuberculosis,,,,,Discharged,17897,Dr. Otieno
+P1476,77,Male,2024-08-14,Inpatient,Emergency,,,,,,Hypertension,,,2024-08-14,2024-08-18,Ongoing,639,Dr. Mwangi
+P1477,40,Female,2024-08-26,Inpatient,Maternity,,,,,,Diarrhea,,,2024-08-26,2024-08-30,Ongoing,6273,Dr. Mwangi
+P1478,53,Female,2024-07-17,Inpatient,OPD,,,,,,COVID-19,,,2024-07-17,2024-07-21,Discharged,17347,Dr. Otieno
+P1479,47,Male,2024-12-20,Inpatient,Emergency,,,,,,Skin Infection,,,2024-12-20,2024-12-24,Discharged,5632,Dr. Achieng
+P1480,55,Male,2024-09-11,Outpatient,Emergency,,,,,,Pneumonia,,,,,Deceased,10877,Dr. Mwangi
+P1481,22,Male,2024-08-22,Inpatient,OPD,,,,,,Diabetes,,,2024-08-22,2024-08-26,Discharged,3398,Dr. Njeri
+P1482,13,Male,2024-11-27,Inpatient,Pediatrics,,,,,,Malaria,,,2024-11-27,2024-12-01,Referred,1208,Dr. Achieng
+P1483,16,Male,2024-12-25,Outpatient,OPD,,,,,,Tuberculosis,,,,,Discharged,18958,Dr. Otieno
+P1484,30,Female,2024-08-26,Inpatient,Maternity,,,,,,COVID-19,,,2024-08-26,2024-08-30,Discharged,9342,Dr. Otieno
+P1485,27,Male,2024-11-07,Outpatient,OPD,,,,,,Pneumonia,,,,,Deceased,3948,Dr. Njeri
+P1486,72,Male,2024-12-01,Outpatient,Emergency,,,,,,Asthma,,,,,Deceased,12569,Dr. Kimani
+P1487,13,Female,2024-11-22,Outpatient,Pediatrics,,,,,,Asthma,,,,,Referred,13631,Dr. Otieno
+P1488,68,Female,2024-08-03,Outpatient,OPD,,,,,,Tuberculosis,,,,,Ongoing,18107,Dr. Otieno
+P1489,24,Male,2024-10-20,Outpatient,OPD,,,,,,Skin Infection,,,,,Ongoing,9245,Dr. Achieng
+P1490,36,Female,2024-09-10,Outpatient,Maternity,,,,,,Skin Infection,,,,,Discharged,12787,Dr. Kimani
+P1491,58,Female,2024-10-19,Outpatient,OPD,,,,,,Malaria,,,,,Discharged,13126,Dr. Kimani
+P1492,62,Female,2024-12-21,Inpatient,OPD,,,,,,Malaria,,,2024-12-21,2024-12-25,Ongoing,13748,Dr. Njeri
+P1493,70,Female,2024-11-17,Inpatient,OPD,,,,,,COVID-19,,,2024-11-17,2024-11-21,Ongoing,17313,Dr. Njeri
+P1494,14,Male,2024-07-22,Inpatient,Pediatrics,,,,,,Flu,,,2024-07-22,2024-07-26,Deceased,15289,Dr. Njeri
+P1495,64,Female,2024-07-12,Inpatient,OPD,,,,,,Asthma,,,2024-07-12,2024-07-16,Ongoing,9222,Dr. Njeri
+P1496,30,Female,2024-11-25,Outpatient,Maternity,,,,,,Pneumonia,,,,,Ongoing,9050,Dr. Otieno
+P1497,35,Female,2024-08-23,Inpatient,Maternity,,,,,,Hypertension,,,2024-08-23,2024-08-27,Discharged,5740,Dr. Njeri
+P1498,82,Female,2024-09-21,Inpatient,OPD,,,,,,Skin Infection,,,2024-09-21,2024-09-25,Deceased,3342,Dr. Otieno
+P1499,22,Female,2024-10-03,Inpatient,Maternity,,,,,,Pneumonia,,,2024-10-03,2024-10-07,Ongoing,10738,Dr. Kimani
+P1500,39,Female,2024-12-17,Outpatient,Maternity,,,,,,Malaria,,,,,Deceased,12436,Dr. Njeri
+P1501,59,Female,2024-09-12,Inpatient,OPD,,,,,,Hypertension,,,2024-09-12,2024-09-16,Ongoing,2479,Dr. Njeri
+P1502,44,Female,2024-12-25,Inpatient,OPD,,,,,,Diarrhea,,,2024-12-25,2024-12-29,Deceased,18480,Dr. Njeri
+P1503,53,Female,2024-09-12,Inpatient,OPD,,,,,,Asthma,,,2024-09-12,2024-09-16,Referred,19475,Dr. Mwangi
+P1504,74,Female,2024-10-25,Outpatient,OPD,,,,,,Malaria,,,,,Referred,16796,Dr. Achieng
+P1505,39,Male,2024-08-05,Outpatient,OPD,,,,,,Malaria,,,,,Deceased,9491,Dr. Mwangi
+P1506,71,Male,2024-11-28,Inpatient,Emergency,,,,,,Malaria,,,2024-11-28,2024-12-02,Discharged,10914,Dr. Otieno
+P1507,26,Male,2024-11-01,Outpatient,OPD,,,,,,Malaria,,,,,Deceased,13753,Dr. Mwangi
+P1508,31,Female,2024-11-05,Outpatient,Maternity,,,,,,Skin Infection,,,,,Deceased,4883,Dr. Mwangi
+P1509,49,Female,2024-07-03,Inpatient,OPD,,,,,,Diabetes,,,2024-07-03,2024-07-07,Discharged,4641,Dr. Kimani
+P1510,12,Male,2024-08-14,Outpatient,Pediatrics,,,,,,Skin Infection,,,,,Discharged,13137,Dr. Otieno
+P1511,5,Male,2024-09-18,Outpatient,Pediatrics,,,,,,Diabetes,,,,,Ongoing,5010,Dr. Otieno
+P1512,82,Male,2024-12-12,Outpatient,Emergency,,,,,,Diabetes,,,,,Discharged,6930,Dr. Kimani
+P1513,29,Female,2024-12-16,Outpatient,Maternity,,,,,,Pneumonia,,,,,Discharged,10512,Dr. Achieng
+P1514,36,Female,2024-10-20,Outpatient,Maternity,,,,,,Flu,,,,,Deceased,7828,Dr. Mwangi
+P1515,4,Female,2024-08-12,Inpatient,Pediatrics,,,,,,Diarrhea,,,2024-08-12,2024-08-16,Ongoing,6169,Dr. Otieno
+P1516,55,Male,2024-11-05,Inpatient,Emergency,,,,,,Tuberculosis,,,2024-11-05,2024-11-09,Referred,18512,Dr. Njeri
+P1517,16,Male,2024-09-11,Inpatient,OPD,,,,,,Hypertension,,,2024-09-11,2024-09-15,Discharged,5507,Dr. Njeri
+P1518,41,Female,2024-11-09,Outpatient,OPD,,,,,,Hypertension,,,,,Discharged,2699,Dr. Otieno
+P1519,24,Female,2024-07-17,Outpatient,Maternity,,,,,,Skin Infection,,,,,Ongoing,1178,Dr. Achieng
+P1520,26,Male,2024-11-20,Inpatient,OPD,,,,,,Malaria,,,2024-11-20,2024-11-24,Referred,11307,Dr. Njeri
+P1521,12,Male,2024-11-27,Inpatient,Pediatrics,,,,,,Hypertension,,,2024-11-27,2024-12-01,Discharged,3138,Dr. Njeri
+P1522,69,Female,2024-11-05,Outpatient,OPD,,,,,,Asthma,,,,,Ongoing,10679,Dr. Kimani
+P1523,30,Female,2024-12-24,Outpatient,Maternity,,,,,,COVID-19,,,,,Discharged,15832,Dr. Mwangi
+P1524,81,Female,2024-08-14,Inpatient,OPD,,,,,,Diabetes,,,2024-08-14,2024-08-18,Referred,9520,Dr. Mwangi
+P1525,22,Female,2024-11-21,Inpatient,Maternity,,,,,,Diarrhea,,,2024-11-21,2024-11-25,Discharged,1004,Dr. Otieno
+P1526,30,Female,2024-12-21,Inpatient,Maternity,,,,,,Diarrhea,,,2024-12-21,2024-12-25,Discharged,18839,Dr. Otieno
+P1527,69,Male,2024-11-03,Inpatient,Emergency,,,,,,COVID-19,,,2024-11-03,2024-11-07,Discharged,3425,Dr. Njeri
+P1528,63,Female,2024-09-21,Inpatient,OPD,,,,,,COVID-19,,,2024-09-21,2024-09-25,Referred,647,Dr. Otieno
+P1529,50,Female,2024-11-18,Outpatient,OPD,,,,,,Tuberculosis,,,,,Discharged,18333,Dr. Njeri
+P1530,39,Female,2024-10-05,Inpatient,Maternity,,,,,,Skin Infection,,,2024-10-05,2024-10-09,Discharged,16596,Dr. Kimani
+P1531,43,Female,2024-09-18,Inpatient,OPD,,,,,,Malaria,,,2024-09-18,2024-09-22,Discharged,12873,Dr. Achieng
+P1532,75,Male,2024-08-17,Outpatient,Emergency,,,,,,COVID-19,,,,,Discharged,14723,Dr. Achieng
+P1533,68,Female,2024-12-22,Inpatient,OPD,,,,,,Asthma,,,2024-12-22,2024-12-26,Discharged,14060,Dr. Achieng
+P1534,30,Male,2024-10-02,Outpatient,OPD,,,,,,Flu,,,,,Deceased,3354,Dr. Mwangi
+P1535,65,Female,2024-11-09,Outpatient,OPD,,,,,,Malaria,,,,,Referred,2539,Dr. Otieno
+P1536,28,Male,2024-09-23,Inpatient,OPD,,,,,,Skin Infection,,,2024-09-23,2024-09-27,Discharged,16283,Dr. Achieng
+P1537,52,Male,2024-08-30,Inpatient,Emergency,,,,,,Tuberculosis,,,2024-08-30,2024-09-03,Ongoing,2331,Dr. Kimani
+P1538,38,Female,2024-10-20,Outpatient,Maternity,,,,,,Skin Infection,,,,,Discharged,551,Dr. Njeri
+P1539,79,Female,2024-08-28,Outpatient,OPD,,,,,,Diarrhea,,,,,Discharged,1847,Dr. Achieng
+P1540,19,Female,2024-09-17,Inpatient,Maternity,,,,,,Diarrhea,,,2024-09-17,2024-09-21,Discharged,16041,Dr. Njeri
+P1541,36,Male,2024-08-11,Outpatient,OPD,,,,,,Tuberculosis,,,,,Ongoing,4945,Dr. Njeri
+P1542,13,Female,2024-10-07,Inpatient,Pediatrics,,,,,,Skin Infection,,,2024-10-07,2024-10-11,Referred,13080,Dr. Achieng
+P1543,77,Female,2024-09-09,Inpatient,OPD,,,,,,Diabetes,,,2024-09-09,2024-09-13,Referred,6561,Dr. Kimani
+P1544,7,Male,2024-07-13,Inpatient,Pediatrics,,,,,,Diabetes,,,2024-07-13,2024-07-17,Referred,7919,Dr. Otieno
+P1545,7,Female,2024-10-07,Outpatient,Pediatrics,,,,,,COVID-19,,,,,Referred,6306,Dr. Achieng
+P1546,78,Male,2024-11-13,Inpatient,Emergency,,,,,,Malaria,,,2024-11-13,2024-11-17,Discharged,11500,Dr. Njeri
+P1547,2,Female,2024-10-06,Inpatient,Pediatrics,,,,,,Skin Infection,,,2024-10-06,2024-10-10,Discharged,11639,Dr. Otieno
+P1548,45,Female,2024-12-24,Outpatient,OPD,,,,,,Malaria,,,,,Referred,4176,Dr. Otieno
+P1549,34,Male,2024-08-28,Inpatient,OPD,,,,,,Pneumonia,,,2024-08-28,2024-09-01,Discharged,505,Dr. Njeri

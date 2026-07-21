@@ -1,0 +1,11 @@
+FINANCIAL KPI SUMMARY
+============================================================
+                 Metric         Value
+          Total Revenue $4,256,038.00
+ Average Treatment Cost     $7,766.49
+  Median Treatment Cost     $5,900.00
+ Highest Treatment Cost    $19,868.00
+  Lowest Treatment Cost       $505.00
+ Average Inpatient Cost     $7,491.87
+Average Outpatient Cost     $8,045.15
+
