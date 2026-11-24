@@ -1,4 +1,4 @@
-# End-to-end-healthcare-analytics with python
+# End-to-end-healthcare-analytics with python & SQL
 Analyze hospital operations, patient demographics, clinical outcomes, laboratory indicators, medication utilization and treatment performance using Python
 
 ## Contents
