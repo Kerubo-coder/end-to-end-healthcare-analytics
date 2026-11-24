@@ -11,6 +11,7 @@ Analyze hospital operations, patient demographics, clinical outcomes, laboratory
 
 
 ## Skills Demonistrated
+- ✅ SQL Joins (data from 4 departments)
 - ✅ Reading files (csv, excel, pdf)
 - ✅ Detecting and handling duplicates, missing values, dates
 - ✅ Rearranging, adding and removing columns
